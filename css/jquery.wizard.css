@@ -1,0 +1,204 @@
+/*
+ * jQuery / jqLite Wizard Plugin
+ * version: 0.0.4
+ * Author: Girolamo Tomaselli http://bygiro.com
+ *
+ * Copyright (c) 2013 G. Tomaselli
+ * Licensed under the MIT license.
+ */
+
+@font-face {
+	font-family: 'wizard-font';
+	font-weight: normal;
+	font-style: normal;
+	src: url(data:application/x-font-ttf;charset=utf-8;base64,AAEAAAALAIAAAwAwT1MvMg8SDGQAAAC8AAAAYGNtYXD6RMuEAAABHAAAAGRnYXNwAAAAEAAAAYAAAAAIZ2x5Zh39Yw4AAAGIAAAArGhlYWQGSx/bAAACNAAAADZoaGVhB8MDxwAAAmwAAAAkaG10eA9/ACAAAAKQAAAAHGxvY2EAbgCcAAACrAAAABBtYXhwAAkACQAAArwAAAAgbmFtZZ+vDy0AAALcAAABtnBvc3QAAwAAAAAElAAAACAAAwLgAZAABQAAApkCzAAAAI8CmQLMAAAB6wAzAQkAAAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAAAAAAAABAAADwWgPA/8AAQAPAAEAAAAABAAAAAAAAAAAAAAAgAAAAAAADAAAAAwAAABwAAQADAAAAHAADAAEAAAAcAAQASAAAAA4ACAACAAYAAQAg6jTqOPBa//3//wAAAAAAIOo06jjwWv/9//8AAf/jFdAVzQ+sAAMAAQAAAAAAAAAAAAAAAAAAAAEAAf//AA8AAQAAAAAAAAAAAAIAADc5AQAAAAABAAAAAAAAAAAAAgAANzkBAAAAAAEAAAAAAAAAAAACAAA3OQEAAAAAAQAA/+AD4AOgAAYAAAkBESERIRED4P4g/gACAAHAAeD+4P6A/uAAAAEAIP/gBAADoAAGAAATAREhESERIAHgAgD+AAHA/iABIAGAASAAAAABAAAAQAGAA0AAAwAAEwkBEQABgP6AA0D+gP6AAwAAAAEAAAABAAB0IT+bXw889QALBAAAAAAA0ZXtrwAAAADRle2vAAD/4AQAA6AAAAAIAAIAAAAAAAAAAQAAA8D/wAAABAAAAP//BAAAAQAAAAAAAAAAAAAAAAAAAAcEAAAAAAAAAAAAAAACAAAABAAAAAQAACABfwAAAAAAAAAKABQAHgAyAEYAVgABAAAABwAHAAEAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAADgCuAAEAAAAAAAEACwAAAAEAAAAAAAIABwCEAAEAAAAAAAMACwBCAAEAAAAAAAQACwCZAAEAAAAAAAUACwAhAAEAAAAAAAYACwBjAAEAAAAAAAoAGgC6AAMAAQQJAAEAFgALAAMAAQQJAAIADgCLAAMAAQQJAAMAFgBNAAMAAQQJAAQAFgCkAAMAAQQJAAUAFgAsAAMAAQQJAAYAFgBuAAMAAQQJAAoANADUd2l6YXJkLWZvbnQAdwBpAHoAYQByAGQALQBmAG8AbgB0VmVyc2lvbiAxLjAAVgBlAHIAcwBpAG8AbgAgADEALgAwd2l6YXJkLWZvbnQAdwBpAHoAYQByAGQALQBmAG8AbgB0d2l6YXJkLWZvbnQAdwBpAHoAYQByAGQALQBmAG8AbgB0UmVndWxhcgBSAGUAZwB1AGwAYQByd2l6YXJkLWZvbnQAdwBpAHoAYQByAGQALQBmAG8AbgB0Rm9udCBnZW5lcmF0ZWQgYnkgSWNvTW9vbi4ARgBvAG4AdAAgAGcAZQBuAGUAcgBhAHQAZQBkACAAYgB5ACAASQBjAG8ATQBvAG8AbgAuAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==) format('truetype');
+}
+
+[class^="wiz-icon-"], [class*=" wiz-icon-"] {
+	font-family: 'wizard-font';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	font-size: inherit;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.wiz-icon-chevron-right:before {
+	content: "\f05a";
+    font-size: 64px;
+    position: absolute;
+}
+.wiz-icon-arrow-right:before {
+	content: "\ea34";
+	margin-left: 4px;
+}
+.wiz-icon-arrow-left:before {
+	content: "\ea38";
+	margin-right: 4px;
+}
+
+.wizard {
+	border: 1px solid #d4d4d4;
+}
+
+.wizard .steps-index-container {
+	position: relative;
+	overflow: hidden;	
+}
+
+.wizard .steps-content{
+	border-top: 1px solid #d4d4d4;
+}
+
+.wizard ul.steps {
+	padding: 0;
+	margin: 0;
+	width: 5000px;
+	position:relative;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+
+.wizard ul.steps > li{
+	height: 46px;
+	line-height: 46px;
+	display: table-cell;
+	list-style: none outside none;
+	padding: 0;
+	margin: 0;
+	background: #ededed;
+	color: #b5b5b5;
+	position: relative;
+}
+
+.wizard ul.steps > li.active {
+	background-color: orange;
+	color: white;
+	border:1 px solid black;
+}
+
+.wizard ul.steps > li.completed {
+	cursor: pointer;
+	background-color: #66ffcc;
+	color: #5cb85c;
+}
+
+.wizard ul.steps > li > span{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.wizard ul.steps > li .step-index {
+	padding-left: 30px;
+	padding-right: 5px;
+}
+
+.wizard ul.steps > li .step-text {
+	padding-right: 5px;
+}
+
+.wizard ul.steps > li .step-index .label {
+	background-color: #b5b5b5;
+}
+
+.wizard ul.steps > li.active .step-index .label {
+	background-color: #337ab7;
+}
+
+.wizard ul.steps > li.completed .step-index .label {
+	background-color: #5cb85c;
+}
+
+.wizard ul.steps > li:first-child .step-index {
+	padding-left: 10px;
+}
+
+.wizard .top-actions {
+	z-index: 99;
+	position: absolute;
+	right: 0;
+	top: 0;
+	line-height: 46px;
+	height: 46px;
+	float: right;
+	vertical-align: middle;
+	background-color: #e5e5e5;
+	border-left: 1px solid #d4d4d4;
+	padding: 0 10px;
+	display: table;
+	box-shadow: -3px 0 2px -1px #888;
+	-webkit-box-shadow: -3px 0 2px -1px #888;
+	-moz-box-shadow: -3px 0 2px -1px #888;
+	-o-box-shadow: -3px 0 2px -1px #888;
+}
+
+.wizard .top-actions .btn-group {
+	display: table-cell;
+	vertical-align: middle;
+}
+.wizard .bottom-actions {
+	width: 100%;
+}
+
+.wizard .bottom-actions .btn-next,
+.wizard .bottom-actions .btn-prev {
+	margin: 10px;
+}
+
+.wizard .bottom-actions .btn-next {
+	float: right;
+}
+
+.wizard .bottom-actions .btn-prev {
+	float: left;
+}
+
+.wizard .steps-content .step-pane:not(.active){
+	display: none;
+}
+
+.wizard .steps-content .step-pane{
+	padding: 10px;
+}
+
+.wizard .btn-next,
+.wizard .btn-prev {
+	white-space: nowrap;
+}
+
+.wizard .btn-next:not(.final-step) .finished-text {
+	display: none;
+}
+
+.wizard .btn-next.final-step .next-text,
+.wizard .btn-next.final-step .wiz-icon-arrow-right {
+	display: none;
+}
+
+.wizard .wiz-icon-chevron-right.colorA::before {
+    right: -23px;
+    top: -9.5px;
+	z-index: 2;
+    color: #ededed;
+}
+
+.wizard .wiz-icon-chevron-right.colorB::before {
+    right: -24px;
+    top: -9.5px;
+	z-index: 1;
+	color: #b5b5b5;
+}
+
+.wizard li.active .wiz-icon-chevron-right.colorA::before {
+	color: orange;
+}
+
+.wizard li.completed .wiz-icon-chevron-right.colorA::before {
+	color: #66ffcc;
+}

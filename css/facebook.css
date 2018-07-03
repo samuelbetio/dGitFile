@@ -1,0 +1,88 @@
+#facebook {
+  padding: 20px;
+  box-sizing: border-box;
+  background: #f6f7f9;
+  margin-top: 20px;
+  font-family: Arial;
+}
+#facebook .avatar {
+  width: 32px;
+  height: 32px;
+  float: left;
+}
+#facebook .writeComment {
+  box-sizing: border-box;
+}
+#facebook .writeComment:before,
+#facebook .writeComment:after {
+  content: '';
+  display: table;
+  clear: both;
+  width: 100%;
+}
+#facebook .writeComment .form {
+  box-sizing: border-box;
+  padding-left: 40px;
+}
+#facebook .writeComment .form input {
+  display: block;
+  padding: 7px 5px;
+  border: 1px solid #9a9a9a;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.comment_img {
+  max-width: 250px!important;
+}
+
+
+#facebook .writeComment .form .inscription {
+  font-size: 10px;
+  color: #ccc;
+}
+#facebook .commentsList:before,
+#facebook .commentsList:after {
+  content: '';
+  display: table;
+  clear: both;
+  width: 100%;
+}
+#facebook .commentsList .commentItem {
+  box-sizing: border-box;
+  margin: 10px 0;
+}
+#facebook .commentsList .commentItem .commentBody {
+  padding-left: 40px;
+  font-size: 12px;
+  line-height: 16px;
+}
+#facebook .commentsList .commentItem .commentBody .username {
+  color: #3b5998;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 5px;
+}
+#facebook .commentsList .commentItem .commentBody .commentAction a {
+  color: #3b5998;
+  text-decoration: none;
+}
+#facebook .commentsList .commentItem .commentBody .commentAction .circle {
+  font-size: 7px;
+  position: relative;
+  top: -2px;
+  padding: 0 5px;
+}
+#facebook .commentsList .commentItem .commentBody .commentAction .likeImage {
+  position: relative;
+  top: 8px;
+  width: 25px;
+  height: 25px;
+}
+#facebook .commentsList .commentItem .commentBody .commentAction .likeCount {
+  color: #ccc;
+}
+#facebook .commentsList .commentItem .commentBody .commentAction .time {
+  color: #ccc;
+}

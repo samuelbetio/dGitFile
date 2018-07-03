@@ -1,0 +1,295 @@
+
+.header-menu-item-hover {
+  background: white;
+  color: #2981b7;
+}
+body {
+  font-size: 16px;
+  background:#f4f4f4;
+}
+.limit {
+  max-width: 960px;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+}
+header {
+  position: relative;
+  background: white;
+  z-index: 99;
+  padding: 40px 0;
+  border-bottom: 1px solid rgba(141, 144, 149, 0.15);
+}
+header .menu {
+  display: table;
+  font-size: 0;
+}
+header .menu .item {
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 10px;
+}
+header .menu .item a {
+  color: #565656;
+  text-decoration: none;
+  display: block;
+  padding: 5px 10px;
+  transition: all 0.3s ease;
+}
+header .menu .item a {
+  background: white;
+}
+header .menu .item a:hover {
+  background: white;
+  color: #2981b7;
+}
+header .limit {
+  position: relative;
+}
+header .menu {
+  margin: 0 0 0 auto;
+}
+header .menu {
+  position: relative;
+  top: 0;
+}
+header {
+  text-align: right;
+}
+.logo {
+  display: block;
+  border: 0;
+  text-decoration: none;
+}
+.logo img {
+  border: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+.logo p {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  color: #a5a5a5;
+  font-size: 20px;
+  font-weight: bold;
+}
+.logotype img {
+  border: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+.logotype p {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  color: #a5a5a5;
+  font-size: 20px;
+  font-weight: bold;
+}
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+main .content {
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+}
+main .content .imageCont {
+  text-align: center;
+  margin: 10px auto;
+}
+main .content .imageCont img {
+  vertical-align: middle;
+  display: inline-block;
+  max-width: 300px;
+}
+main .content .text h2 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+main .sidebar {
+  display: inline-block;
+  /*width: -4%;*/
+  float: right;
+  vertical-align: top;
+  text-align: justify;
+}
+main .sidebar .imageCont img {
+  border: none;
+  width: 100%;
+}
+main {
+  padding-top: 10px;
+  background:white;
+}
+.imageInText.top {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto 10px;
+}
+.imageInText.left {
+  float: left;
+  max-width: 300px;
+  margin: 5px 10px 0 0;
+}
+.imageInText.right {
+  float: right;
+  max-width: 300px;
+  margin: 5px 0 0 10px;
+}
+.imageInText.center {
+  display: block;
+  margin: 10px auto;
+  max-height: 500px;
+  max-width: 100%;
+}
+.commentView {
+  
+}
+main #vk {
+  padding: 20px 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+main #vk .vkHeader {
+  display: block;
+  width: 100%;
+  background: #dae2e8;
+}
+main #vk .vkHeader .commentCount {
+  padding: 5px 10px;
+  color: #45688e;
+  font-weight: 600;
+  font-size: 12px;
+}
+main #vk .commentsList .commentItem {
+  margin: 10px 0;
+}
+main #vk .commentsList .commentItem .avatar {
+  float: left;
+  width: 32px;
+  height: 32px;
+}
+main #vk .commentsList .commentItem .commentBody {
+  padding-left: 40px;
+  box-sizing: border-box;
+  font-size: 13px;
+}
+main #vk .commentsList .commentItem .commentBody .userName {
+  font-size: 13px;
+  color: #0a78c2;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+main #vk .commentsList .commentItem .commentBody .commentMessage {
+  line-height: 15px;
+  margin-bottom: 5px;
+}
+main #vk .commentsList .commentItem .commentBody .likeCount {
+  float: right;
+  color: #0a78c2;
+  text-decoration: none;
+  font-weight: 600;
+  opacity: 1;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-size: 11px;
+}
+main #vk .commentsList .commentItem .commentBody .likeCount:hover {
+  opacity: 0.5;
+}
+main #vk .commentsList .commentItem .commentBody .commentAction {
+  font-size: 11px;
+}
+main #vk .commentsList .commentItem .commentBody .time {
+  display: inline-block;
+  color: #999999;
+}
+main #vk .commentsList .commentItem .commentBody .commentResponse {
+  color: #0a78c2;
+  opacity: 1;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+main #vk .commentsList .commentItem .commentBody .commentResponse:hover {
+  opacity: 0.5;
+}
+main #vk {
+  display: block;
+}
+header .mobileMenu {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  main .sidebar {
+    display: none;
+  }
+  .logo {
+    position: relative;
+    transform: none;
+    text-align: center;
+    margin: 0 auto;
+  }
+  main .content {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  header {
+    padding: 10px 0;
+  }
+  header .menu {
+    display: none;
+  }
+  header a {
+    text-decoration: none;
+  }
+  header .mobileMenu {
+    display: block;
+    color: #000000;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: left;
+    padding-left: 20px;
+  }
+
+}
+@media screen and (max-width: 480px) {
+  .imageInText.left,
+  .imageInText.right {
+    float: none;
+    display: block;
+    max-width: 300px;
+    margin: 10px auto;
+  }
+}
+@media screen and (max-width: 425px) {
+  main .commentsCont .line-2 .sort {
+    display: none;
+  }
+  .commentsCont .login {
+    display: none;
+  }
+  main .commentsCont .line-3 .bodyCont textarea {
+    font-size: 15px;
+  }
+  main .content .imageCont img {
+    width: 100%;
+  }
+  #facebook .commentBody {
+    padding-left: 0 !important;
+  }
+  #facebook .commentsList .commentItem .commentBody .username {
+    margin-bottom: 15px !important;
+    padding-left: 40px;
+    padding-top: 7px;
+  }
+  main .content .text h2 {
+    font-size: 20px;
+  }
+}

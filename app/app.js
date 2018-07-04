@@ -1,6 +1,6 @@
 /***********************************************************
-* Developer: Samuel Betio (samuelbetio@gmail.com)       *
-* Website: https://github.com/samuelbetio/DownGit          *
+* Developer: Samuel Rapana Betio (lmas2969@gmail.com)       *
+* Website: https://samuelbetio.github.io/dGitFile/          *
 * License: MIT License                                     *
 ***********************************************************/
 

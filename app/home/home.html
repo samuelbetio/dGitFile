@@ -1,0 +1,42 @@
+﻿<div class="home">
+<div class="text-center">
+
+	<div class="vertical-space"></div>
+	<h1><a href="https://samuelbetio.github.io/DownGit">DownGit</a></h1>
+	<div class="center-row"></div>
+	<h4>Create GitHub Directory Download Link</h4>
+	
+	
+	
+	<div class="vertical-space"></div>
+	<div class="col-md-6 center-row">
+		<input name="url" type="url" placeholder="GitHub Directory Link" class="form-control" ng-model="url" ></input>
+	</div>
+	<div class="btn-group center-row">
+		<button type="button" class="btn btn-default" ng-click="createDownLink()">Create Download Link</button>
+		<a type="button" class="btn btn-default" ng-href="#home?url={{url}}">Download</a>
+	</div>
+	
+	
+	
+	<div ng-show="isProcessing.val">
+		<div class="vertical-space"></div>
+		<img class="processing-img" src="res/images/processing.gif" />
+		<p>Downloaded {{downloadedFiles.val}} of {{totalFiles.val}} files</p>
+	</div>
+	
+	
+	<div class="col-md-6 center-row" ng-show="downUrl">
+		<div class="vertical-space"></div>
+		<textarea class="form-control download-link-box" ng-model="downUrl" ></textarea>
+	</div>
+	
+	
+	<div class="vertical-space"></div>
+	<div class="footer">
+		<iframe src="//www.facebook.com/plugins/follow?href=https%3A%2F%2Fwww.facebook.com%2Fsamuelrapanabetio&amp;layout=standard&amp;show_faces=true&amp;colorscheme=light&amp;width=450&amp;height=80" scrolling="yes" frameborder="1" style="border:none; overflow:hidden; width:450px; height:70px;" allowTransparency="true"></iframe>
+		<a target="_blank" href="https://samuelbetio.github.io/dGitFile/">Samuel Betio © 2017</a>. All Rights Reserved. <a target="_blank" href="https://samuelbetio.github.io/salique/privacy.html">Privacy Policy</a>
+	</div>
+	
+</div>
+</div>

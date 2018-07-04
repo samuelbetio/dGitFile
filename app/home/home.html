@@ -1,41 +1,38 @@
-﻿<div class="home">
+<div class="home">
 <div class="text-center">
 
-	<div class="vertical-space"></div>
-	<h1>DownGitFile</h1>
-	<div class="center-row"></div>
-	<h4>Create GitHub Directory Download Link<a class="github-button" href="https://github.com/samuelbetio" data-size="large" data-show-count="true" aria-label="Follow @DownGit on GitHub">Follow @DownGit</a></h4>
-	
-	
-	
-	<div class="vertical-space"></div>
-	<div class="col-md-6 center-row">
-		<input name="url" type="url" placeholder="GitHub Directory Link" class="form-control" ng-model="url" ></input>
-	</div>
-	<div class="btn-group center-row">
-		<button type="button" class="btn btn-default" ng-click="createDownLink()">Create Download Link</button>
-		<a type="button" class="btn btn-default" ng-href="#home?url={{url}}">Download</a>
-	</div>
-	
-	
-	
-	<div ng-show="isProcessing.val">
-		<div class="vertical-space"></div>
-		<img class="processing-img" src="res/images/processing.gif" />
-		<p>Downloaded {{downloadedFiles.val}} of {{totalFiles.val}} files</p>
-	</div>
-	
-	
-	<div class="col-md-6 center-row" ng-show="downUrl">
-		<div class="vertical-space"></div>
-		<textarea class="form-control download-link-box" ng-model="downUrl" ></textarea>
-	</div>
-	
-	
-	<div class="vertical-space"></div>
-	<div class="footer">
-		<p>Copyright &copy; 2014<script>new Date().getFullYear()>2014&&document.write("-"+new Date().getFullYear());</script> <a href="https://t.co/ayRZWrBFUF">Samuel Rapana Betio</a>.</strong> All Rights Reserved.</p>
-	</div>
-	
+    <div class="vertical-space"></div>
+    <h1><a href="https://github.com/samuelbetio/dGitFile">DownGit</a></h1>
+    <div class="center-row"></div>
+    <h4>Create GitHub Resource Download Link</h4>
+    
+    
+    <div class="vertical-space"></div>
+    <div class="col-md-6 center-row">
+        <input name="url" type="url" placeholder="GitHub File or Directory Link" class="form-control" ng-model="url" ng-keypress="catchEnter($event)"></input>
+    </div>
+    <div class="btn-group center-row">
+        <button type="button" class="btn btn-default" ng-click="createDownLink()">Create Download Link</button>
+        <button type="button" class="btn btn-default" ng-click="download()">Download</button>
+    </div>
+    
+    
+    <div ng-show="isProcessing.val">
+        <div class="vertical-space"></div>
+        <img class="processing-img" src="res/images/processing.gif" />
+        <p>Downloaded {{downloadedFiles.val}} of {{totalFiles.val}} files</p>
+    </div>
+    
+    
+    <div class="col-md-6 center-row" ng-show="downUrl">
+        <div class="vertical-space"></div>
+        <textarea class="form-control download-link-box" ng-model="downUrl" ></textarea>
+    </div>
+    
+    <div class="vertical-space"></div>
+    <div class="footer">
+        <a target="_blank" href="https://github.com/samuelbetio/dGitFile">dGitFile</a> by <a class="github-button" href="https://github.com/samuelbetio" data-size="large" data-show-count="true" aria-label="Follow @samuelbetio on GitHub">Follow @samuelbetio</a>Minhas Kamal</a>
+    </div>
+    
 </div>
 </div>

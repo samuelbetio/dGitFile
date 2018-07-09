@@ -1,0 +1,117 @@
+
+								<div class="about_bottom_content">
+									<div class="about_bottom_title">
+										<h4>Where Do We Send Your Package</h4>
+									</div>
+
+
+            <div class="form-area">
+              <div class="form-inner-section">
+                <div class="trail-txt">
+                </div>
+                <div class="form-section">
+                  <form accept-charset='ISO-8859-1' enctype='application/x-www-form-urlencoded;charset=ISO-8859-1' name='opt_in_form' id='opt_in_form'>
+					<input type='hidden' name='step' id='step' value='1' />
+				    <input type='hidden' name='has_upsell' id='has_upsell' value='1' />
+					<input type='hidden' id='hasFormSubmitted' value='' />
+					<input type='hidden' id='campaign_id' name='campaign_id' value='350' />
+					<input type='hidden' name='country' id="country" value='US' />
+					<input type='hidden' name='domain_name' id="domain_name" value='https://menspowerplus.com/v3/' />
+					<input type='hidden' name='AFID' id='AFID' value='80'>
+<input type='hidden' name='SID' id='SID' value='220001'>
+                    <div id="order-form">
+                      <label for="fields_fname">First Name</label>
+                      <input  type='text' id='fields_fname' name='fields_fname' tabindex="1" />
+                      <label for="fields_address1">Address</label>
+                      <input  type='text' id='fields_address1' name='fields_address1' tabindex="3" />
+                      <label for="fields_zip">ZIP Code</label>
+                      <input  type='text' id='fields_zip' name='fields_zip' tabindex="5" />
+                      <label for='fields_phone'> Phone</label>
+                      <input type="text" onkeydown="return onlyNumbers(event,'phone')" id="fields_phone" name="fields_phone" tabindex="7" />
+                    </div>
+                    <div id="order-form">
+                      <label for="fields_lname">Last Name</label>
+                      <input  type='text' id='fields_lname' name='fields_lname' tabindex="2" />
+                      <label for="fields_city">City</label>
+                      <input  type='text' id='fields_city' name='fields_city' tabindex="4" />
+                      <label for="fields_state" id="fields_state_region">State</label>
+                      <div id="state_cus1">
+		              <select border="0" class="selectbox" id="fields_state" style="" name="fields_state" size="1" onchange="SetStateHid(this);" tabindex="6">
+		               	<option value="" onclick="" >Select State</option>
+						<option value="AL" onclick="" >Alabama (AL)</option>
+						<option value="AK" onclick="" >Alaska (AK)</option>
+						<option value="AS" onclick="" >American Samoa (AS)</option>
+						<option value="AZ" onclick="" >Arizona (AZ)</option>
+						<option value="AR" onclick="" >Arkansas (AR)</option>
+						<option value="CA" onclick="" >California (CA)</option>
+						<option value="CO" onclick="" >Colorado (CO)</option>
+						<option value="CT" onclick="" >Connecticut (CT)</option>
+						<option value="DE" onclick="" >Delaware (DE)</option>
+						<option value="DC" onclick="" >District of Columbia (DC)</option>
+						<option value="FM" onclick="" >Federated States of Micronesia (FM)</option>
+						<option value="FL" onclick="" >Florida (FL)</option>
+						<option value="GA" onclick="" >Georgia (GA)</option>
+						<option value="GU" onclick="" >Guam (GU)</option>
+						<option value="HI" onclick="" >Hawaii (HI)</option>
+						<option value="ID" onclick="" >Idaho (ID)</option>
+						<option value="IL" onclick="" >Illinois (IL)</option>
+						<option value="IN" onclick="" >Indiana (IN)</option>
+						<option value="IA" onclick="" >Iowa (IA)</option>
+						<option value="KS" onclick="" >Kansas (KS)</option>
+						<option value="KY" onclick="" >Kentucky (KY)</option>
+						<option value="LA" onclick="" >Louisiana (LA)</option>
+						<option value="ME" onclick="" >Maine (ME)</option>
+						<option value="MD" onclick="" >Maryland (MD)</option>
+						<option value="MA" onclick="" >Massachusetts (MA)</option>
+						<option value="MI" onclick="" >Michigan (MI)</option>
+						<option value="MN" onclick="" >Minnesota (MN)</option>
+						<option value="MS" onclick="" >Mississippi (MS)</option>
+						<option value="MO" onclick="" >Missouri (MO)</option>
+						<option value="MT" onclick="" >Montana (MT)</option>
+						<option value="NE" onclick="" >Nebraska (NE)</option>
+						<option value="NV" onclick="" >Nevada (NV)</option>
+						<option value="NH" onclick="" >New Hampshire (NH)</option>
+						<option value="NJ" onclick="" >New Jersey (NJ)</option>
+						<option value="NM" onclick="" >New Mexico (NM)</option>
+						<option value="NY" onclick="" >New York (NY)</option>
+						<option value="NC" onclick="" >North Carolina (NC)</option>
+						<option value="ND" onclick="" >North Dakota (ND)</option>
+						<option value="MP" onclick="" >Northern Mariana Islands (MP)</option>
+						<option value="OH" onclick="" >Ohio (OH)</option>
+						<option value="OK" onclick="" >Oklahoma (OK)</option>
+						<option value="OR" onclick="" >Oregon (OR)</option>
+						<option value="PA" onclick="" >Pennsylvania (PA)</option>
+						<option value="PR" onclick="" >Puerto Rico (PR)</option>
+						<option value="MH" onclick="" >Republic of Marshall Islands (MH)</option>
+						<option value="RI" onclick="" >Rhode Island (RI)</option>
+						<option value="SC" onclick="" >South Carolina (SC)</option>
+						<option value="SD" onclick="" >South Dakota (SD)</option>
+						<option value="TN" onclick="" >Tennessee (TN)</option>
+						<option value="TX" onclick="" >Texas (TX)</option>
+						<option value="UT" onclick="" >Utah (UT)</option>
+						<option value="VT" onclick="" >Vermont (VT)</option>
+						<option value="VI" onclick="" >Virgin Islands of the U.S. (VI)</option>
+						<option value="VA" onclick="" >Virginia (VA)</option>
+						<option value="WA" onclick="" >Washington (WA)</option>
+						<option value="WV" onclick="" >West Virginia (WV)</option>
+						<option value="WI" onclick="" >Wisconsin (WI)</option>
+						<option value="WY" onclick="" >Wyoming (WY)</option>
+		              </select>
+		              <input type="text" id="fields_state_hid" name="fields_state_hid" style="display: none;"/>
+		              </div>
+                      <label for="fields_email">E-Mail</label>
+                      <input type="text" id="fields_email" name="fields_email" tabindex="8" />
+                    </div>
+                    <div class="order-btn-section">
+                      <div class="order-btn">
+
+                      </div>
+                      <div class="hurry-badge"><a href="/"><img src="assets/images/order.png" alt="" /></a></div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>

@@ -1,0 +1,26 @@
+{
+  "name": "bootstrap-min-only",
+  "description": "Bower component for [Bootstrap](http://getbootstrap.com/) CSS and font libraries only. No javascript, and more importantly NO bower depenedency on jQuery.",
+  "keywords": [
+    "twitter",
+    "bootstrap",
+    "twitter-bootstrap",
+	"bootstrap-min",
+	"twitter-bootstrap-min",
+    "css"
+  ],
+  "main": [
+    "bootstrap.min.css",
+    "bootstrap-theme.min.css",
+    "bootstrap.min.js"
+  ],
+  "homepage": "http://getbootstrap.com/",
+  "license": "MIT",
+  "author": {
+    "name": "Twitter Inc."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andrewmur/bootstrap-min-only.git"
+  }
+}

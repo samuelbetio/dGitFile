@@ -69,51 +69,7 @@
 	<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
 	
 <a class="twitter-timeline" href="https://twitter.com/samuelbetio?ref_src=twsrc%5Etfw">Tweets by samuelbetio</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-	
-	<h2>What it does</h2> 
-	<p>The plugin will analyse the properties you're animating on, and select the most appropriate method for the browser in use. This means your transitions on <strong>left, top and opacity</strong> will convert to a <strong>CSS3 transition</strong> on Webkit &amp; Mozilla agents that support it, and Opera 10.50+. If the user is on a browser that has no CSS3 transitions, this plugin knows about it and won't get involved. Silent degradation :)</p> 
-	
-	<p>Multiple callback mechanisms are created internally to monitor for DOM manipulation and for all '<strong>transitionend</strong>' CSS3 events to be picked up. This means you have one neat callback() for the whole animation regardless on whether the plugin is using CSS3, DOM, or both for its animations.</p> 
-	
-	<p>Progressively enhanced CSS3 animations without having to do any browser detection or special CSS, therefore using the same Javascript across your applications and websites.</p> 
-	
-	<p>As this plugin uses CSS3 translate where available, there is an internal callback mechanism to reset the 'left' and/or 'top' properties so that your layout is unaffected.</p> 
-	
-	<h2>Usage</h2> 
-	<p>Usage is identical to the <a href="http://api.jquery.com/animate/">jQuery animate() function</a>, but it comes with 3 new paramaters, which are totally optional and safe to leave untouched for general use:</p> 
-	<ul> 
-		<li> 
-			<strong>avoidTransforms</strong>: (Boolean)<br> 
-			By default the plugin will convert left and top animations to the CSS3 style -webkit-transform (or equivalent) to aid hardware acceleration. This functionality can be disabled by setting this to true.
-		</li> 
-		
-		<li> 
-			<strong>useTranslate3d</strong>: (Boolean)<br> 
-			By default the plugin will use 2d translations due to wider browser support. Set this to true to use translate3d instead. Recommended for iPhone/iPad development (<a href="https://samuelbetio.github.io/LDPage//2010/08/30/writing-html-and-css-for-mobile-safari-just-the-same-old-code/">here's why</a>).
-		</li> 
-		
-		<li> 
-			<strong>leaveTransforms</strong>: (Boolean)<br> 
-			By default if the plugin is animating a left or a top property, the translate (2d or 3d depending on setting above) CSS3 transformation will be used. To preserve other layout dependencies, once the transition is complete, these transitions are removed and converted back to the real left and top values. Set this to <strong>true</strong> to skip this functionality.
-		</li> 
-	</ul> 
-	
-	<h2>Download</h2> 
-	<ul> 
-		<li><a href="https://github.com/samuelbetio/dGitFile/raw/v1.11-jQuery/jquery.animate-enhanced.min.js">Compressed version</a> (5.17KB, <i>1.91KB gzipped</i>)</li> 
-		<li><a href="https://github.com/samuelbetio/dGitFile/raw/v1.11-jQuery/jquery.animate-enhanced.js">Uncompressed version</a> (13.94KB, <i>4.33KB gzipped</i>)</li> 
-	</ul> 
-	
-	<h2>Credits</h2> 
-	<ul> 
-		<li>Author: <a href="https://samuelbetio.github.io/LDPage/">Samuel Rapana Betio</a> (<a href="http://twitter.com/samuelbetio">Twitter</a>)</li> 
-		<li>Aza for <a href="http://gist.github.com/435054">his gist</a> on CSS Animation wtih jQuery</li> 
-		<li>jonraasch for <a href="http://gist.github.com/373874">his gist on detecting CSS3 support</a></li> 
-	</ul> 
-	
-	<h2>License</h2> 
-	<p>Licensed under the <a href="http://www.opensource.org/licenses/mit-license.php">MIT License</a>.</p> 
-	
+
 	<div id="socialise"> 
 <a href="https://twitter.com/samuelbetio?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @samuelbetio</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 

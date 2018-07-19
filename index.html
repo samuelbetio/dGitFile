@@ -1,102 +1,108 @@
-<!DOCTYPE html> 
-<html lang="en"> 
-<head> 
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
-	<title>jQuery Animations with automatic CSS3 transitions when possible</title> 
-	<meta name="generator" content="TextMate https://samuelbetio.github.io/LDPage/"> 
-	<meta name="author" content="Samuel Rapana Betio"> 
-	<!-- Date: 2018-07-17 --> 
- 
-	
-	<style type="text/css" media="screen"> 
-		html {
-			padding:0;
-			margin:0;
-			background:#ebebeb;
-		}
-		
-		body {
-			width:760px;
-			padding:15px;
-			margin:15px auto;
-			background:#fff;
-			font: 75% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
-			-webkit-border-radius:10px;
-			-moz-border-radius:10px;
-			border-radius:10px;
-		}
- 
-		
-		h2.highlight {
-			padding:5px;
-			background:#ffcc00;
-		}
-		
-		.target-css, .target-dom, .target-css-leave {
-			padding:5px 20px;
-			width:280px;
-			background:#0c0;
-			margin:20px 0;
-			position:relative;
-		}
-		
-		.target-dom {
-			background:#0cc;
-		}
-		
-		.target-css-leave {
-			background:#fc0;
-		}
-		
-		p#results {
-			color:#c00;
-		}
- 
-		div#socialise {
-			margin-top:50px;
-			padding-top:20px;
-			border-top:1px solid #ccc;
-		}
-	</style> 
-</head> 
-<body> 
-	<h1>dGitFile</h1> 
-	<h2>Update by: Samuel Rapana Betio</h2> 
-	<h3>New features in v1.0:</h3> 
-	<a href="https://twitter.com/samuelbetio?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @samuelbetio</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<a class="twitter-timeline" href="https://twitter.com/samuelbetio?ref_src=twsrc%5Etfw">Tweets by samuelbetio</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-	<div id="socialise"> 
-<a href="https://github.com/samuelbetio/dGitFile"><img style="position: fixed; top: 0; left: 0; border: 0;" src="https://github.com/samuelbetio/dGitFile/raw/8bb598be3c5cc1107f8674b03c278b11fb3f5665/github/ribbons/forkme_left_darkblue_121621.png" alt="Fork me on GitHub" /></a> 
-<a href="https://twitter.com/intent/tweet?screen_name=samuelbetio&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @samuelbetio</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>	
-	<script type="text/javascript" src="https://github.com/samuelbetio/dGitFile/raw/1.0.7/scripts/contrib/jquery-1.4.3.js"></script> 
-	<script type="text/javascript" src="https://github.com/samuelbetio/dGitFile/raw/1.0.7/scripts/src/jquery.animate-enhanced.js"></script> 
-	<script type="text/javascript" charset="utf-8"> 
-		$('button#start').click(function() {
-			var results = $('p#results').html("Animating..."),
-			button = $(this).attr('disabled', 'disabled');
-			$('button:not(#start)').removeAttr('disabled');
-			
-			// CSS3 Container
-			$('.target-css').animate({left: "+=200px", width:320 }, 1500, function() {
-				results.html('first callback() fired, reversing...');
-				$(this).animate({left: "-=200px", width:280 }, 1500, function() {
-					results.html("second callback() fired");
-					button.removeAttr('disabled');
-					$('button:not(#start)').attr('disabled', 'disabled');
-				});
-			});
-			
-			// CSS3 Container (leaveTransforms)
-			$('.target-css-leave').animate({left: "+=200px", width:320, leaveTransforms:true }, 1500, function() {
-				$(this).animate({left: "-=200px", width:280, leaveTransforms:true }, 1500);
-			});
-			
-			// DOM container
-			$('.target-dom').animate({left: "+=200px", width:320, avoidTransforms:true }, 1500, function() {
-				$(this).animate({left: "-=200px", width:280, avoidTransforms:true }, 1500);
-			});
-		});
-	</script> 
-</body> 
+<html class="noJSFallback downloadWindowController">
+<!--[if (gt IE 9)|!(IE)]>--> <html class="noJSFallback downloadWindowController" lang="ceb" dir="ltr" xml:lang="ceb"> <!--[endif]-->
+<!--[if IE 9]>    <html class="ie9 noJSFallback downloadWindowController" lang="ceb" dir="ltr" xml:lang="ceb"> <![endif]-->
+   <head>
+      <base href="https://www.jw.org/"><!--[if lte IE 6]></base><![endif]-->
+
+      <link rel="shortcut icon" href="/favicon.ico" />
+      <link rel="apple-touch-icon" href="https://assetsnffrgf-a.akamaihd.net/themes/content-theme/images/icon_homeButton.png" />
+      <link rel="icon" href="https://assetsnffrgf-a.akamaihd.net/themes/content-theme/images/icon_favicon.gif" />
+
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+      <title></title>
+
+      
+<link href="https://assetsnffrgf-a.akamaihd.net/themes/content-theme/_combinedfiles/cross-domain/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
+<link href="themes/content-theme/_combinedfiles/cross-domain/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
+
+
+      <script type="text/javascript" src="/ceb/i18n.js?v=2552828400"></script>
+   <link rel="stylesheet" type="text/css" href="https://code-a.akamaihd.net/media-player/v1.2.0-rc2/skins/light.css" />
+<link rel="stylesheet" type="text/css" href="https://code-a.akamaihd.net/client-components/v0.7.0/css/jworg.css" />
+<link rel="stylesheet" type="text/css" href="https://code-a.akamaihd.net/legal-notices-client/LATEST/css/legal-notices-client.css" />
+<link rel="stylesheet" type="text/css" href="https://assetsnffrgf-a.akamaihd.net/themes/content-theme/_combinedfiles/528d07a4f6-0.css" />
+<link rel="stylesheet" type="text/css" href="https://assetsnffrgf-a.akamaihd.net/themes/content-theme/_combinedfiles/528d07a4f6-1.css" />
+<link rel="stylesheet" type="text/css" href="https://assetsnffrgf-a.akamaihd.net/themes/content-theme/_combinedfiles/528d07a4f6-2.css" />
+</head>
+   <body class="yesJS lang-CV dir-ltr ">
+      <div id="pageConfig"
+   data-content_lang="ceb"
+   data-content_lang_direction="ltr"
+   data-wt_lang="CV"
+   data-menu_default_collapsed="null"
+   data-base_path=""
+   data-finder_base_link="https://www.jw.org/finder?"
+   data-pubmedia_url="https://apps.jw.org/GETPUBMEDIALINKS"
+   data-page_id=""
+   data-body_classes=""
+   data-jwt_location=""
+   data-mediator_url=""
+   data-insight_events_url="https://insight.jw-api.org/events"
+   
+      data-language_api="/ceb/languages/"
+   
+   
+      
+         
+            data-bible_html_api="/ceb/mga-publikasyon/bibliya/bi12/mga-basahon/json/html/"
+         
+            data-bible_data_api="/ceb/mga-publikasyon/bibliya/bi12/mga-basahon/json/data/"
+         
+            data-bible_multimedia_api="/ceb/mga-publikasyon/bibliya/bi12/mga-basahon/json/multimedia/"
+         
+            data-bible_translations_api="/ceb/mga-publikasyon/bibliya/bi12/mga-basahon/json/translations/"
+         
+            data-bible_translations-html_api="/ceb/mga-publikasyon/bibliya/bi12/mga-basahon/json/translations-html/"
+         
+         data-preferred_bible="bi12"
+         data-preferred_bible_available_verses="1001001-66022021"
+         
+            data-bible_audio_data_api="https://apps.jw.org/GETPUBMEDIALINKS?output=json&amp;pub=bi12&amp;fileformat=MP3&amp;alllangs=0&amp;langwritten=CV&amp;txtCMSLang=CV"
+         
+
+         
+            data-bible_html_api_bi12="/ceb/mga-publikasyon/bibliya/bi12/mga-basahon/json/html/"
+         
+            data-bible_data_api_bi12="/ceb/mga-publikasyon/bibliya/bi12/mga-basahon/json/data/"
+         
+            data-bible_multimedia_api_bi12="/ceb/mga-publikasyon/bibliya/bi12/mga-basahon/json/multimedia/"
+         
+            data-bible_translations_api_bi12="/ceb/mga-publikasyon/bibliya/bi12/mga-basahon/json/translations/"
+         
+            data-bible_translations-html_api_bi12="/ceb/mga-publikasyon/bibliya/bi12/mga-basahon/json/translations-html/"
+         
+
+         
+
+         data-bible_editions_api="/ceb/mga-publikasyon/bibliya/json/"
+      
+   
+   
+
+   
+   style="display:none;"></div>
+
+
+      
+         <div class="cvr hideObj">
+            
+               <img src="assets/a/yc/CV/wpub/yc_CV_xs.jpg" alt="" />
+            
+         </div>
+      
+
+      <div class='noJSHide jsIncludeDownloadModal'
+           
+           data-jsonurl='https://apps.jw.org/GETPUBMEDIALINKS?output=json&amp;pub=yc&amp;fileformat=MP3%2CAAC&amp;alllangs=0&amp;langwritten=CV&amp;txtCMSLang=CV'>
+         <div class='loadingPlaceHolder'></div>
+      </div>
+
+      <noscript>
+         <iframe src="https://apps.jw.org/GETPUBMEDIALINKS?output=html&pub=yc&fileformat=MP3%2CAAC&alllangs=0&langwritten=CV&txtCMSLang=CV"></iframe>
+      </noscript>
+   <script type="text/javascript" src="https://code-a.akamaihd.net/media-player/v1.2.0-rc2/js/media-player.min.js"></script><script type="text/javascript" src="https://www.gstatic.com/cv/js/sender/v1/cast_sender.js?loadCastFramework=1"></script><script type="text/javascript" src="https://code-a.akamaihd.net/client-components/v0.7.0/js/client-components.js"></script><script type="text/javascript" src="https://code-a.akamaihd.net/legal-notices-client/LATEST/js/legal-notices-client-autorun.min.js"></script><script type="text/javascript" src="https://assetsnffrgf-a.akamaihd.net/assets/s/528d07a4f6/thirdparty.js"></script><script type="text/javascript" src="https://assetsnffrgf-a.akamaihd.net/assets/s/528d07a4f6/js-core.js"></script><script type="text/javascript" src="https://assetsnffrgf-a.akamaihd.net/assets/s/528d07a4f6/cms.js"></script></body>
 </html>

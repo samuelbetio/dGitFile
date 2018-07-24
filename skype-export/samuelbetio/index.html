@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Archived conversations</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <script>
+            document.addEventListener("DOMContentLoaded", function(event) {
+                function selectConversation(element) {
+                    if (selectedConvLi) {
+                        selectedConvLi.className = "conversations";
+                    }
+                    var href = element.getAttribute('href');
+                    selectedConversationHeader.innerHTML = element.innerHTML;
+                    selectedConversationDiv.innerHTML='<object class="object" type="text/html" data="' + href + '" ></object>';
+                    selectedConvLi = element.parentNode;
+                    selectedConvLi.className = "conversations-sel"
+                }
+                function convCallback(event) {
+                    if (event.target.tagName !== 'A') {
+                        return;
+                    }
+                    selectConversation(event.target);
+                    event.preventDefault();
+                }
+
+                var selectedConvLi = null;
+                var selectedConversationDiv = document.getElementById("selected-conversation-placeholder");
+                var selectedConversationHeader = document.getElementById("selected-conversation-header");
+                var conversations = document.getElementById('conversations');
+                conversations.addEventListener('click', convCallback, false);
+                selectConversation(conversations.firstElementChild.firstElementChild);
+            });
+        </script>
+        <div class="left">
+            <div class="header">
+                <h1 class="conversations">Archived conversations</h1>
+
+<table>
+                <tbody>
+                    <tr><th>User</th><td id="hdr-user">Samuel Betio <small>(samuelbetio)</small></td></tr>
+                    <tr><th>Exported</th><td id="hdr-exported">7/24/2018 10:56:23 AM</td></tr>
+                    <tr><th>Total</th><td id="hdr-stats">0 conversations</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <ul class="conversations" id="conversations">
+        
+        </ul>
+        </div>
+        <div id= "selected-conversation" class="right" >
+            <h1 class="conversation" id="selected-conversation-header"></h1>
+            <div id= "selected-conversation-placeholder">
+            </div>
+        </div>
+    </body>
+</html>

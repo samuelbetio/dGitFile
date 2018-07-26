@@ -1,0 +1,190 @@
+
+
+.scrollToTop{
+  background-color: #06d0d8;
+  color: #fff;
+}
+.scrollToTop:hover,.scrollToTop:focus{  
+  color: #06d0d8;
+  border-color: 1px solid #06d0d8;
+}
+.navbar-brand span{
+  color: #06d0d8;
+}
+.navbar-default .navbar-nav > li > a:hover,.navbar-default .navbar-nav > li > a:focus{
+  color: #06d0d8;  
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #06d0d8;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #06d0d8;
+}
+.dropdown-menu > li > a:hover,.dropdown-menu > li > a:focus{  
+  color: #06d0d8;
+}
+
+.testimonial_content blockquote:before {
+  background-color: #06d0d8;
+}  
+.service_icon:hover{
+  color: #06d0d8;
+}
+.read_more:hover{
+  color: #06d0d8;
+  border-bottom: 1px dotted #06d0d8;
+}
+.howworks_featured .media-left:hover{
+  color: #06d0d8; 
+}
+.featured_btn:hover,.featured_btn:focus{
+  background-color: #06d0d8;
+  border:1px solid #06d0d8;  
+}
+.price_badge {
+  background: none repeat scroll 0 0 #06d0d8;
+}
+.single_footer_top > h2:hover{
+  color: #06d0d8;
+}
+.single_footer_top ul li a:hover{
+  color: #06d0d8;
+}
+.contact_mail p>span,.contact_mail p>a{
+  color: #06d0d8;
+}
+.single_footer_middle>h2:hover{
+  color: #06d0d8;
+}
+.social_nav li a:hover{
+  border-color: #06d0d8;
+  color: #06d0d8;
+}
+#banner h2 {
+  color: #06d0d8;
+}
+.imgedit_heading .panel-title > a {
+  color: #06d0d8;
+}
+.expand_icon {
+  background-color: #06d0d8;
+}
+.imgedit_panel .panel-default {  
+  border-color: #06d0d8;
+}
+.imgedit_contactinfo p>a{
+  color: #06d0d8;
+}
+.term_cond_info>a{
+  color:#06d0d8;
+}
+.manual_btn {
+  background-color: #06d0d8;
+}
+.support_btn{
+  background-color: #06d0d8;
+}
+.submitphot_content > p>span{
+  color: #06d0d8;
+}
+.archiveblog_right > h2 {
+  color: #06d0d8;
+}
+.post_commentbox a:hover, .post_commentbox span:hover{
+  color:#06d0d8; 
+}
+.pagination li a{
+  color: #06d0d8;
+}
+.pagination li a:hover,.pagination li a:focus{
+  background-color: #06d0d8;
+}
+.single_sidebar > h2 {
+  border-bottom: 2px dashed #06d0d8;
+  color: #06d0d8;
+}
+.single_sidebar ul li a:hover{
+  color:#06d0d8; 
+}
+.catg_nav li > a:hover{
+  color: #06d0d8;
+}
+.tags_nav li a:hover,.tags_nav li a:focus{
+  background-color:#06d0d8;
+}
+.archiveblog_right ul li:before {
+  background-color: #06d0d8;
+}
+.archiveblog_right h1,.archiveblog_right h3,.archiveblog_right h4,.archiveblog_right h5,.archiveblog_right h6{
+  color:#06d0d8; 
+}
+.previous_nav {
+  border: 1px solid #06d0d8;
+  color: #06d0d8;
+}
+.next_nav {
+  border: 1px solid #06d0d8;
+  color: #06d0d8;
+}
+.next_nav:hover,.previous_nav:hover{
+  background-color: #06d0d8;
+}
+.slick-dots li.slick-active button:before {
+  border: 2px solid #06d0d8;
+}
+.price_nav li:hover .price_heading{
+    background-color: #06d0d8;
+} 
+.price_nav li:hover .price_img_inner{
+    border: 2px solid #06d0d8;
+} 
+.price_nav li:hover .price_img_inner{
+    border: 2px solid #06d0d8;
+} 
+.price_nav li:hover .price_count{
+    background-color:  #06d0d8;
+}
+.price_nav li:hover .get_button{
+    background-color:  #06d0d8;
+    border-color: #06d0d8;
+}
+.price_nav>li:hover{
+  border-color: #06d0d8;
+}
+
+.slides-pagination a {
+  border: 2px solid #06d0d8;
+}
+.slider_caption > h2 span{ 
+  color: #06d0d8; 
+}
+.slider_btn {
+  border: 1px solid #06d0d8;  
+}
+.slider_btn:hover,.slider_btn:focus{
+  color: #06d0d8;  
+}
+
+.slick-slide:hover .team_name{
+  color: #06d0d8;
+}
+.team_social a:hover{
+  color: #06d0d8;
+  border-color: #06d0d8;
+}
+/*.team_nav .slick-slide:hover{
+  border: 1px solid #06d0d8;
+} */
+
+.wpcf7-submit {
+  background-color: #06d0d8;
+}
+.wpcf7-submit:hover{
+  background-color: #fff; 
+  color:#06d0d8;
+  border : 1px solid #06d0d8;
+}
+.similar_post h2>i{
+  color: #06d0d8;
+}
+

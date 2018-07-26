@@ -1,0 +1,181 @@
+
+
+.scrollToTop{
+  background-color: #ff871c;
+  color: #fff;
+}
+.scrollToTop:hover,.scrollToTop:focus{  
+  color: #ff871c;
+  border-color: 1px solid #ff871c;
+}
+.navbar-brand span{
+  color: #ff871c;
+}
+.navbar-default .navbar-nav > li > a:hover,.navbar-default .navbar-nav > li > a:focus{
+  color: #ff871c;  
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #ff871c;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #ff871c;
+}
+.dropdown-menu > li > a:hover,.dropdown-menu > li > a:focus{  
+  color: #ff871c;
+}
+
+.testimonial_content blockquote:before {
+  background-color: #ff871c;
+}  
+.service_icon:hover{
+  color: #ff871c;
+}
+.read_more:hover{
+  color: #ff871c;
+  border-bottom: 1px dotted #ff871c;
+}
+.howworks_featured .media-left:hover{
+  color: #ff871c; 
+}
+.featured_btn:hover,.featured_btn:focus{
+  background-color: #ff871c;
+  border:1px solid #ff871c;  
+}
+.price_badge {
+  background: none repeat scroll 0 0 #ff871c;
+}
+.single_footer_top > h2:hover{
+  color: #ff871c;
+}
+.single_footer_top ul li a:hover{
+  color: #ff871c;
+}
+.contact_mail p>span,.contact_mail p>a{
+  color: #ff871c;
+}
+.single_footer_middle>h2:hover{
+  color: #ff871c;
+}
+.social_nav li a:hover{
+  border-color: #ff871c;
+  color: #ff871c;
+}
+#banner h2 {
+  color: #ff871c;
+}
+.imgedit_heading .panel-title > a {
+  color: #ff871c;
+}
+.expand_icon {
+  background-color: #ff871c;
+}
+.imgedit_panel .panel-default {  
+  border-color: #ff871c;
+}
+.imgedit_contactinfo p>a{
+  color: #ff871c;
+}
+.term_cond_info>a{
+  color:#ff871c;
+}
+.manual_btn {
+  background-color: #ff871c;
+}
+.support_btn{
+  background-color: #ff871c;
+}
+.submitphot_content > p>span{
+  color: #ff871c;
+}
+.archiveblog_right > h2 {
+  color: #ff871c;
+}
+.post_commentbox a:hover, .post_commentbox span:hover{
+  color:#ff871c; 
+}
+.pagination li a{
+  color: #ff871c;
+}
+.pagination li a:hover,.pagination li a:focus{
+  background-color: #ff871c;
+}
+.single_sidebar > h2 {
+  border-bottom: 2px dashed #ff871c;
+  color: #ff871c;
+}
+.single_sidebar ul li a:hover{
+  color:#ff871c; 
+}
+.catg_nav li > a:hover{
+  color: #ff871c;
+}
+.tags_nav li a:hover,.tags_nav li a:focus{
+  background-color:#ff871c;
+}
+.archiveblog_right ul li:before {
+  background-color: #ff871c;
+}
+.archiveblog_right h1,.archiveblog_right h3,.archiveblog_right h4,.archiveblog_right h5,.archiveblog_right h6{
+  color:#ff871c; 
+}
+.previous_nav {
+  border: 1px solid #ff871c;
+  color: #ff871c;
+}
+.next_nav {
+  border: 1px solid #ff871c;
+  color: #ff871c;
+}
+.next_nav:hover,.previous_nav:hover{
+  background-color: #ff871c;
+}
+.slick-dots li.slick-active button:before {
+  border: 2px solid #ff871c;
+}
+.price_nav li:hover .price_heading{
+    background-color: #ff871c;
+} 
+.price_nav li:hover .price_img_inner{
+    border: 2px solid #ff871c;
+} 
+.price_nav li:hover .price_img_inner{
+    border: 2px solid #ff871c;
+} 
+.price_nav li:hover .price_count{
+    background-color:  #ff871c;
+}
+.price_nav li:hover .get_button{
+    background-color:  #ff871c;
+    border-color: #ff871c;
+}
+.slides-pagination a {
+  border: 2px solid #ff871c;
+}
+.slider_caption > h2 span{ 
+  color: #ff871c; 
+}
+.slider_btn {
+  border: 1px solid #ff871c;  
+}
+.slider_btn:hover,.slider_btn:focus{
+  color: #ff871c;  
+}
+.slick-slide:hover .team_name{
+  color: #ff871c;
+}
+.team_social a:hover{
+  color: #ff871c;
+  border-color: #ff871c;
+}
+.wpcf7-submit {
+  background-color: #ff871c;
+}  
+.wpcf7-submit:hover{
+  background-color: #fff; 
+  color:#ff871c;
+  border : 1px solid #ff871c;
+}
+.similar_post h2>i{
+  color: #ff871c;
+}
+

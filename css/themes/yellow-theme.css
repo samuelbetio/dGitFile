@@ -1,0 +1,181 @@
+
+
+.scrollToTop{
+  background-color: #ffd133;
+  color: #fff;
+}
+.scrollToTop:hover,.scrollToTop:focus{  
+  color: #ffd133;
+  border-color: 1px solid #ffd133;
+}
+.navbar-brand span{
+  color: #ffd133;
+}
+.navbar-default .navbar-nav > li > a:hover,.navbar-default .navbar-nav > li > a:focus{
+  color: #ffd133;  
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #ffd133;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #ffd133;
+}
+.dropdown-menu > li > a:hover,.dropdown-menu > li > a:focus{  
+  color: #ffd133;
+}
+
+.testimonial_content blockquote:before {
+  background-color: #ffd133;
+}  
+.service_icon:hover{
+  color: #ffd133;
+}
+.read_more:hover{
+  color: #ffd133;
+  border-bottom: 1px dotted #ffd133;
+}
+.howworks_featured .media-left:hover{
+  color: #ffd133; 
+}
+.featured_btn:hover,.featured_btn:focus{
+  background-color: #ffd133;
+  border:1px solid #ffd133;  
+}
+.price_badge {
+  background: none repeat scroll 0 0 #ffd133;
+}
+.single_footer_top > h2:hover{
+  color: #ffd133;
+}
+.single_footer_top ul li a:hover{
+  color: #ffd133;
+}
+.contact_mail p>span,.contact_mail p>a{
+  color: #ffd133;
+}
+.single_footer_middle>h2:hover{
+  color: #ffd133;
+}
+.social_nav li a:hover{
+  border-color: #ffd133;
+  color: #ffd133;
+}
+#banner h2 {
+  color: #ffd133;
+}
+.imgedit_heading .panel-title > a {
+  color: #ffd133;
+}
+.expand_icon {
+  background-color: #ffd133;
+}
+.imgedit_panel .panel-default {  
+  border-color: #ffd133;
+}
+.imgedit_contactinfo p>a{
+  color: #ffd133;
+}
+.term_cond_info>a{
+  color:#ffd133;
+}
+.manual_btn {
+  background-color: #ffd133;
+}
+.support_btn{
+  background-color: #ffd133;
+}
+.submitphot_content > p>span{
+  color: #ffd133;
+}
+.archiveblog_right > h2 {
+  color: #ffd133;
+}
+.post_commentbox a:hover, .post_commentbox span:hover{
+  color:#ffd133; 
+}
+.pagination li a{
+  color: #ffd133;
+}
+.pagination li a:hover,.pagination li a:focus{
+  background-color: #ffd133;
+}
+.single_sidebar > h2 {
+  border-bottom: 2px dashed #ffd133;
+  color: #ffd133;
+}
+.single_sidebar ul li a:hover{
+  color:#ffd133; 
+}
+.catg_nav li > a:hover{
+  color: #ffd133;
+}
+.tags_nav li a:hover,.tags_nav li a:focus{
+  background-color:#ffd133;
+}
+.archiveblog_right ul li:before {
+  background-color: #ffd133;
+}
+.archiveblog_right h1,.archiveblog_right h3,.archiveblog_right h4,.archiveblog_right h5,.archiveblog_right h6{
+  color:#ffd133; 
+}
+.previous_nav {
+  border: 1px solid #ffd133;
+  color: #ffd133;
+}
+.next_nav {
+  border: 1px solid #ffd133;
+  color: #ffd133;
+}
+.next_nav:hover,.previous_nav:hover{
+  background-color: #ffd133;
+}
+.slick-dots li.slick-active button:before {
+  border: 2px solid #ffd133;
+}
+.price_nav li:hover .price_heading{
+    background-color: #ffd133;
+} 
+.price_nav li:hover .price_img_inner{
+    border: 2px solid #ffd133;
+} 
+.price_nav li:hover .price_img_inner{
+    border: 2px solid #ffd133;
+} 
+.price_nav li:hover .price_count{
+    background-color:  #ffd133;
+}
+.price_nav li:hover .get_button{
+    background-color:  #ffd133;
+    border-color: #ffd133;
+}
+.slides-pagination a {
+  border: 2px solid #ffd133;
+}
+.slider_caption > h2 span{ 
+  color: #ffd133; 
+}
+.slider_btn {
+  border: 1px solid #ffd133;  
+}
+.slider_btn:hover,.slider_btn:focus{
+  color: #ffd133;  
+}
+.slick-slide:hover .team_name{
+  color: #ffd133;
+}
+.team_social a:hover{
+  color: #ffd133;
+  border-color: #ffd133;
+}
+.wpcf7-submit {
+  background-color: #ffd133;
+}  
+.wpcf7-submit:hover{
+  background-color: #fff; 
+  color:#ffd133;
+  border : 1px solid #ffd133;
+}
+.similar_post h2>i{
+  color: #ffd133;
+}
+

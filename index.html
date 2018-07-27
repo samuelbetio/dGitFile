@@ -1,0 +1,211 @@
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Go Shape Club</title>
+<meta charset="utf-8">
+<link rel="icon" href="images/favicon.ico">
+<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/camera.css">
+<link rel="stylesheet" href="css/form.css">
+<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.1.1.js"></script>
+<script src="js/superfish.js"></script>
+<script src="js/forms.js"></script>
+<script src="js/jquery.ui.totop.js"></script>
+<script src="js/jquery.equalheights.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.ui.totop.js"></script>
+<script src="js/tms-0.4.1.js"></script>
+<script>
+$(document).ready(function () {
+    $('.slider_wrapper')._TMS({
+        show: 0,
+        pauseOnHover: false,
+        prevBu: '.prev',
+        nextBu: '.next',
+        playBu: false,
+        duration: 800,
+        preset: 'fade',
+        pagination: true, //'.pagination',true,'<ul></ul>'
+        pagNums: false,
+        slideshow: 8000,
+        numStatus: false,
+        banners: 'fade',
+        waitBannerAnimation: false,
+        progressBar: false
+    });
+});
+$(document).ready(function () {
+    ! function () {
+        var map = [],
+            names = [],
+            win = $(window),
+            header = $('header'),
+            currClass
+            $('.content').each(function (n) {
+                map[n] = this.offsetTop
+                names[n] = $(this).attr('id')
+            })
+            win
+                .on('scroll', function () {
+                    var i = 0
+                    while (map[i++] <= win.scrollTop());
+                    if (currClass !== names[i - 2])
+                        currClass = names[i - 2]
+                    header.removeAttr("class").addClass(names[i - 2])
+                })
+    }();
+});
+function goToByScroll(id) {
+    $('html,body').animate({
+        scrollTop: $("#" + id).offset().top
+    }, 'slow');
+}
+$(document).ready(function () {
+    $().UItoTop({
+        easingType: 'easeOutQuart'
+    });
+});
+</script>
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<link rel="stylesheet" media="screen" href="css/ie.css">
+<![endif]-->
+</head>
+<body>
+<header class="page1">
+  <div class="container_12">
+    <div class="grid_12">
+      <h1><a href="#" onClick="goToByScroll('page1'); return false;"><img src="images/logo.png" alt=""></a></h1>
+      <div class="menu_block">
+        <nav class="">
+          <ul class="sf-menu">
+            <li class="current men"><a onClick="goToByScroll('page1'); return false;" href="/">Home </a> <strong class="hover"></strong></li>
+            <li class="men1"><a onClick="goToByScroll('page2'); return false;" href="www.shapeclub.com">Blog of the Week</a><strong class="hover"></strong></li>
+            <li class=" men4"><a onClick="goToByScroll('page5'); return false;" href="www.shapeclub.com">Contacts</a> <strong class="hover"></strong></li>
+          </ul>
+        </nav>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</header>
+
+<div id="page2" class="content">
+  <div class="container_12">
+    <div class="grid_12">
+      <div class="slogan">
+        <h3>The Best Detox</a></h3>
+<br>
+ <center><img src="images/d3.jpg" alt=""></center>
+
+			<div>
+<br>As detailed in my 3-minute video The Best Detox, there's lots of talk these days about detoxing, but talk is cheap our liver is actually doing it, all day, every day. If we want to detoxify our bodies, the best thing we can do is to boost our liver's own detoxifying enzymes, and one of the most potent such inducer is a phytonutrient called sulforaphane. So where do we find this stuff?  Broccoli, which produces more than any other known plant (with the silver going to kohlrabi and bronze to cauliflower; broccoli raab, on the other hand, produces about 500 times less than broccoli).
+<br>
+<br>
+
+			<br><center><img src="images/d2.jpg" alt="Img" height="900" width="600"</center>
+<br>
+<br>
+<br>Broccoli is an exceptional source of sulforaphane, but the surprising thing is that there's none actually in the vegetable until you bite it. You know those chemical flares, or glow sticks, where you snap them and chemicals in two different compartments mix and set off a reaction? Broccoli does the same thing. In one part of the cell it keeps the enzyme myrosinase, and in another part it keeps something called glucoraphanin. There is no sulforaphane, which is what we want, anywhere in broccoli not until some herbivore starts chewing on it. At that point, plant cells get crushed, the enzyme mixes with the glucoraphanin and sulforaphane is born.  And the herbivore is like, "Ew, this tastes like broccoli!" and runs away. The plant uses this as a defense against nibblers and noshers. Little did broccoli count on a little lemon juice and some garlic?maybe a little tahini dressing? It's our counterattack.
+<br>
+<br>A similar enzymatic "glow stick" reaction happens in garlic. Both the enzymes in both these cases are inactivated by cooking, so there's a secret to preserving the benefits. See <b>Sometimes the Enzyme Myth Is True</b> for my "hack & hold" strategy (or maybe I should call it whack & wait?)
+<br>
+<br>Broccoli sprouts are even healthier, and can be a cost-effective way to eat on the cheap if you make your own. That's the subject of my 2-minute video <b>Biggest Nutrition Bang for Your Buck, </b> in which broccoli sprouts beat out purple cabbage <b> (Superfood Bargains) </b> for the most one could get nutritionally for one's money. Another good cost-saving tip can be found in<b> Are Goji Berries Good For You?. </b>
+<br>
+<br>Can you overdo it? Yes, four cups of broccoli sprouts a day may exceed the safe dose of sulforaphane, for example. See <b>Liver Toxicity Due to Broccoli Juice? </b>and <b>How Much Broccoli Is Too Much? </b>There is also the issue of the goitrogenic compounds in raw cruciferous. See <b>Overdosing on Greens. </b>We can also drink too much tea (see <b>Overdosing on Tea</b>), eat too much of the spice turmeric (see<b> Oxalates in Cinnamon</b>), too much of the seaweed kelp (see <b>Too Much Iodine Can Be As Bad As Too Little</b>), and overdo coffee when pregnant (see <b>Caffeine During Pregnancy </b>). And in a nod to my Care2 post <b>Stomach Staples or Healthy Kitchen Staples, </b>I relate a cautionary tale of gastric bypass surgery in <b>The Dangers of Broccoli? </b>
+<br>
+<br><b> - Michael Greger, M.D. </b>
+<br>
+<br>
+<font size=1>Credits to : nutritionfacts </font>
+
+
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<div id="page5" class="content">
+  <div class="container_12">
+    <div class="grid_12">
+      <div class="slogan">
+        <h3>Get in Touch</h3>
+        <div class="text1"> We would love to hear from you. Send us your queries and suggestions. </div>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <div class="map">
+      <div class="grid_3">
+        <div class="text1">Address</div>
+        <address>
+        <dl>
+          <dt>Go Shape Club.<br>
+Flatlands, Brooklyn, <br>
+ NY, USA </dt>
+          <dd><span>Freephone:</span>+1 716-430-6579</dd>
+          <dd>E-mail: <a href="#" class="link-1">info@shapeclub.com</a></dd>
+          <dd>Skype: <a href="#" class="link-1">@shapeclub</a></dd>
+        </dl>
+        </address>
+      </div>
+      <div class="grid_3">
+        <div class="text1">&nbsp;</div>
+        <figure class="">
+          <iframe src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Brooklyn,+New+York,+NY,+United+States&amp;aq=0&amp;sll=37.0625,-95.677068&amp;sspn=61.282355,146.513672&amp;ie=UTF8&amp;hq=&amp;hnear=Brooklyn,+Kings,+New+York&amp;ll=40.649974,-73.950005&amp;spn=0.01628,0.025663&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+        </figure>
+      </div>
+      <div class="grid_5 prefix_1">
+        <div class="text1">Ask a Question</div>
+        <form id="form" action="#">
+          <div class="success_wrapper">
+            <div class="success">Contact form submitted!<br>
+              <strong>We will be in touch soon.</strong> </div>
+          </div>
+          <fieldset>
+            <label class="name">
+              <input type="text" value="Name:">
+              <br class="clear">
+              <span class="error error-empty">*This is not a valid name.</span><span class="empty error-empty">*This field is required.</span> </label>
+            <label class="email">
+              <input type="text" value="E-mail:">
+              <br class="clear">
+              <span class="error error-empty">*This is not a valid email address.</span><span class="empty error-empty">*This field is required.</span> </label>
+            <label class="message">
+              <textarea>Message:</textarea>
+              <br class="clear">
+              <span class="error">*The message is too short.</span> <span class="empty">*This field is required.</span> </label>
+            <div class="clear"></div>
+            <div class="btns"><a data-type="submit" class="link1">Send</a>
+              <div class="clear"></div>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+<footer>
+  <div class="container_12">
+    <div class="grid_12">
+      <div class="copy"> <a onClick="goToByScroll('page1'); return false;" href="http://www.shapeclub.com/"><img src="images/logo2.png" alt=""></a> &copy; 2017 | <a href="#">Privacy Policy</a> <br>
+        Developed by: <a href="http://www.shapeclub.com/">shapeclub.com</a> </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</footer>
+</body>
+</html>

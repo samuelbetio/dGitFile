@@ -5,7 +5,7 @@
 
 |[![Download Github File][0]][01]     |[Commit][1] Default  |(zip) Download Default |(tar.gz) Download Default |Full Version Default |
 |-------------------------------|---------------------|-----------------------|--------------------------|---------------------|
-|[monolyth][2]                   |[0f2d80a][3]         |[Download][4]          |[Download][5]             |1.0.1-IcoMoon        |
+|[monolyth][2]                   |[0f2d80a][3]         |[Download][4]          |[Download][5]            |v7.3.7               |
 |[Mga Sumaryo sa What Can the Bible Teach Us?][6]     |[723afb2][7]         |[Download][8]          |[Download][9]             |1.0.1                |
 
 [monolyth version]: https://www.npmjs.com/package/svg-sprite-loader

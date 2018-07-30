@@ -9,7 +9,7 @@
 |[Mga Sumaryo sa What Can the Bible Teach Us?][6]     |[723afb2][7]         |[Download][8]          |[Download][9]             |1.0.1                |
 
 [monolyth version]: https://www.npmjs.com/package/svg-sprite-loader
-[version-img]: https://github.com/samuelbetio/dGitFile/blob/master/monolyth.PNG
+[version-img]: https://github.com/samuelbetio/dGitFile/blob/v7.3.7/monolyth.PNG
 [versions-img]: https://libraries.io/npm/svg-sprite-loader/versions
 [0]: https://github.com/samuelbetio/dGitFile/blob/v1.0.01-Hawcons/SVG/Documents/Blue/Filled/icon-5-mail-envelope-open.svg
 [01]: https://github.com/samuelbetio/dGitFile/releases

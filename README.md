@@ -10,7 +10,7 @@
 
 [monolyth version]: https://www.npmjs.com/package/svg-sprite-loader
 [version-img]: https://github.com/samuelbetio/dGitFile/blob/v7.3.7/monolyth.PNG
-[versions-img]: https://libraries.io/npm/svg-sprite-loader/versions
+[versions-img]: https://github.com/samuelbetio/dGitFile/tree/v7.3.6#dgitfile-download-github-file
 [0]: https://github.com/samuelbetio/dGitFile/blob/v1.0.01-Hawcons/SVG/Documents/Blue/Filled/icon-5-mail-envelope-open.svg
 [01]: https://github.com/samuelbetio/dGitFile/releases
 [1]: https://github.com/samuelbetio/dGitFile/commits/master

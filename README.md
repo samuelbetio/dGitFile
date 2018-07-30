@@ -9,7 +9,7 @@
 
 
 [0]: https://github.com/samuelbetio/dGitFile/blob/v1.0.01-Hawcons/SVG/Documents/Blue/Filled/icon-5-mail-envelope-open.svg
-[01]: https://github.com/samuelbetio/dGitFile/releases/tag/v7.3.7
+[01]: https://github.com/samuelbetio/dGitFile/releases
 [1]: https://github.com/samuelbetio/dGitFile/commits/master
 [2]: https://github.com/samuelbetio/dGitFile/releases/tag/1.0.1-IcoMoon
 [3]: https://github.com/samuelbetio/dGitFile/commit/0f2d80a0179b915a3498c32171d92099ded69b06

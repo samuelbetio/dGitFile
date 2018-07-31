@@ -1,4 +1,4 @@
-[dGitFile] Download Github File
+[dGitFile] [Download Github File]
 =================================
 |  df | Browser           | SVG | External Content | Shimmed |
 |:---:|-------------------|:---:|:----------------:|:-------:|
@@ -22,7 +22,6 @@
 
 [![NPM Version][npm-img]][npm] [![Build Status][ci-img]][ci]
 
-[SVG for Everybody] adds [SVG External Content] support to [all browsers].
 
 [ci]:      https://travis-ci.org/samuelbetio/svg4everybody
 [ci-img]:  https://img.shields.io/travis/samuelbetio/svg4everybody.svg
@@ -30,4 +29,4 @@
 [npm-img]: https://img.shields.io/npm/v/svg4everybody.svg
 [all browsers]: http://caniuse.com/svg
 [dGitFile]: https://github.com/topics/dgitfile
-[SVG External Content]: http://css-tricks.com/svg-sprites-use-better-icon-fonts/##Browser+Support
+[Download Github File]: https://github.com/samuelbetio/dGitFile/blob/master/README.md#dgitfile-download-github-file

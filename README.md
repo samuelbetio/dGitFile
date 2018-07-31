@@ -1,6 +1,6 @@
 ![Releases Story of My Life Version](https://github.com/samuelbetio/dGitFile/blob/v1.0.01-Hawcons/SVG/Sports/Blue/Stroke/icon-36-medal.svg)
 =================================
-| OS  | Browser           | SVG | External Content | Shimmed |
+|![Releases Story of My Life Version](https://github.com/samuelbetio/dGitFile/blob/v1.0.01-Hawcons/SVG/Sports/Blue/Stroke/icon-36-medal.svg)| Browser           | SVG | External Content | Shimmed |
 |:---:|-------------------|:---:|:----------------:|:-------:|
 | *   | Chrome 21+        | ✔   | ✔                | —       |
 | *   | Chrome 14-20      | ✔   | ✖                | ✔       |

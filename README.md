@@ -2,32 +2,7 @@
 =================================
 |![File][sv]| Name Releases     | Tag |[![dGitFile][dgf-sv]][dgf]|
 |:---------:|-------------------|:---:|:------------------------:|
-|   ✔      | [QR Code]         | [1] | [✔][8]                   |
-|           | Chrome 14-20      | ✖   | ✖                       |
-
-
-
-
-
-[HTML]
-======
-|![File][sv]| Name Releases     | Tag |[![dGitFile][dgf-sv]][dgf]|
-|:---------:|-------------------|:---:|:------------------------:|
-|   ✔      | [QR Code]         | [1] | [✔][8]                   |
-|           | Chrome 14-20      | ✖   | ✖                       |
-
-[CSS]
-======
-|![File][sv]| Name Releases     | Tag |[![dGitFile][dgf-sv]][dgf]|
-|:---------:|-------------------|:---:|:------------------------:|
-|   ✔      | [QR Code]         | [1] | [✔][8]                   |
-|           | Chrome 14-20      | ✖   | ✖                       |
-
-[App or Application]
-==================
-|![File][sv]| Name Releases     | Tag |[![dGitFile][dgf-sv]][dgf]|
-|:---------:|-------------------|:---:|:------------------------:|
-|   ✔      | [QR Code]         | [1] | [✔][8]                   |
+|   ✔      | [QR Code]         | [1] | [✔][8][HTML][CSS][App or Application]        |
 |           | Chrome 14-20      | ✖   | ✖                       |
 
 [Bootstrap]

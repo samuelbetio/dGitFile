@@ -1,22 +1,22 @@
 [![dGitFile][dgf-sv]][dgf] [Download Github File]
 =================================
-|Logo | Browser           | SVG | External Content | Shimmed |
-|:---:|-------------------|:---:|:----------------:|:-------:|
+|Logo             | Releases          | SVG | External Content | Shimmed |
+|:---------------:|-------------------|:---:|:----------------:|:-------:|
 |[![k][j]][r-i]   | Chrome 21+        | ✔   | ✔                | —       |
-| *   | Chrome 14-20      | ✖   | ✖                | ✔       |
-| *   | Firefox 4+        | ✔   | ✔                | —       |
-| *   | Opera 23+         | ✔   | ✔                | —       |
-| *   | Opera Mini 8+     | ✔   | ✔                | —       |
-| And | And. Browser 40+  |     | ✔                | —       |
-| And | And. Browser 4.1+ | ✔   | ✖                | ✔       |
-| iOS | iOS 8.1+          | ✔   | ✔                | —       |
-| iOS | iOS 6-7           | ✔   | ✖                | ✔       |
-| OSX | Saf 7.1+          | ✔   | ✔                | —       |
-| OSX | Saf 6             | ✔   | ✖                | ✔       |
-| Win | Edge 13+          | ✔   | ✔                | —       |
-| Win | Edge 12           | ✔   | ✖                | ✔       |
-| Win | IE 9 - 11         | ✔   | ✖                | ✔       |
-| Win |                   | ✖   | ✖                | ✔       |
+|[![k][j]][r-i]   | Chrome 14-20      | ✖   | ✖                | ✔       |
+|[![k][j]][r-i]   | Firefox 4+        | ✔   | ✔                | —       |
+|[![k][j]][r-i]   | Opera 23+         | ✔   | ✔                | —       |
+|[![k][j]][r-i]   | Opera Mini 8+     | ✔   | ✔                | —       |
+|[![k][j]][r-i]   | And. Browser 40+  |     | ✔                | —       |
+|[![k][j]][r-i]   | And. Browser 4.1+ | ✔   | ✖                | ✔       |
+|[![k][j]][r-i]   | iOS 8.1+          | ✔   | ✔                | —       |
+|[![k][j]][r-i]   | iOS 6-7           | ✔   | ✖                | ✔       |
+|[![k][j]][r-i]   | Saf 7.1+          | ✔   | ✔                | —       |
+|[![k][j]][r-i]   | Saf 6             | ✔   | ✖                | ✔       |
+|[![k][j]][r-i]   | Edge 13+          | ✔   | ✔                | —       |
+|[![k][j]][r-i]   | Edge 12           | ✔   | ✖                | ✔       |
+|[![k][j]][r-i]   | IE 9 - 11         | ✔   | ✖                | ✔       |
+|[![k][j]][r-i]   |                   | ✖   | ✖                | ✔       |
 
 
 [dgf]:     https://github.com/samuelbetio/dGitFile#dgitfile-download-github-file

@@ -1,6 +1,6 @@
 
 =================================
-|     | Browser           | SVG | External Content | Shimmed |
+|  df | Browser           | SVG | External Content | Shimmed |
 |:---:|-------------------|:---:|:----------------:|:-------:|
 | *   | Chrome 21+        | ✔   | ✔                | —       |
 | *   | Chrome 14-20      | ✖   | ✖                | ✔       |

@@ -10,6 +10,16 @@
 ======
 [CSS]
 ======
+[App or Application]
+==================
+[Bootstrap]
+===========
+[jQuery]
+========
+[One Page]
+==========
+[Responsive]
+============
 
 [dgf]:     https://github.com/samuelbetio/dGitFile#dgitfile-download-github-file
 [dgf-sv]:  https://github.com/samuelbetio/dGitFile/blob/v1.0.01-Hawcons/SVG/Filetypes/Blue/Filled/icon-124-document-file-zip.svg

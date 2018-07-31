@@ -17,4 +17,4 @@
 [Download Github File]: https://github.com/samuelbetio/dGitFile/blob/master/README.md#dgitfile-download-github-file
 [QR Code]: https://github.com/samuelbetio/dGitFile/tree/v7.3.13#qrcodejs
 [1]: https://github.com/samuelbetio/dGitFile/releases/tag/v7.3.13
-[8]: https://github.com/samuelbetio/dGitFile
+[8]: https://github.com/samuelbetio/dGitFile/releases/tag/v7.3.13

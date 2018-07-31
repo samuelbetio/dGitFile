@@ -6,6 +6,44 @@
 |[![k][j]][r-i]   | Chrome 14-20      | ✖   | ✖                       | ✔      |
 |[![k][j]][r-i]   | Firefox 4+        | ✔   | ✔                       | —       |
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 [HTML]
 ======
 [CSS]
@@ -26,9 +64,16 @@
 [r-i]:     https://github.com/samuelbetio/dGitFile/releases
 [j]:       https://github.com/samuelbetio/dGitFile/blob/v1.0.01-Hawcons/SVG/Filetypes/Blue/Filled/icon-29-file-doc.svg
 [htlm-sv]: https://github.com/samuelbetio/dGitFile/blob/v1.0.01-Hawcons/SVG/Filetypes/Blue/Filled/icon-11-file-html.svg
-[HTML]:    https://github.com/samuelbetio/dGitFile/blob/v1.0.01-Hawcons/SVG/Filetypes/Blue/Filled/icon-11-file-html.svg
-[CSS]:     https://github.com/samuelbetio/dGitFile/blob/v1.0.01-Hawcons/SVG/Filetypes/Blue/Filled/icon-12-file-css.svg
 
+
+
+[HTML]:                  #html
+[CSS]:                   #css
+[App or Application]:    #css
+[Bootstrap]:             #css
+[jQuery]:                #css
+[One Page]:              #css
+[Responsive]:            #css
 
 [dGitFile]: https://github.com/topics/dgitfile
 [Download Github File]: https://github.com/samuelbetio/dGitFile/blob/master/README.md#dgitfile-download-github-file

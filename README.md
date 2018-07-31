@@ -4,6 +4,6 @@ Dynamic Search with Javascript
 This script will help you to build dynamic live search with simple click.
 
 Live demo :
-http://livedemo.hendrasetiawan.net/dynamic-search-datatable-with-javascript/
+https://samuelbetio.github.io/LDPage/search/search.html
 
 Hope this could help you. :)

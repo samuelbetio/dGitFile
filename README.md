@@ -1,6 +1,3 @@
-[Story Of My Life]
-=====================
-
 Releases Story of My Life Version
 =================================
 | OS  | Browser           | SVG | External Content | Shimmed |
@@ -10,7 +7,7 @@ Releases Story of My Life Version
 | *   | Firefox 4+        | ✔   | ✔                | —       |
 | *   | Opera 23+         | ✔   | ✔                | —       |
 | *   | Opera Mini 8+     | ✔   | ✔                | —       |
-| And | And. Browser 40+  | ✔   | ✔                | —       |
+| And | And. Browser 40+  |      | ✔                | —       |
 | And | And. Browser 4.1+ | ✔   | ✖                | ✔       |
 | iOS | iOS 8.1+          | ✔   | ✔                | —       |
 | iOS | iOS 6-7           | ✔   | ✖                | ✔       |

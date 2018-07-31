@@ -6,7 +6,7 @@
 |[![k][j]][r-i]   | Chrome 14-20      | ✖   | ✖                       | ✔      |
 |[![k][j]][r-i]   | Firefox 4+        | ✔   | ✔                       | —       |
 
-[![HTML][htlm-sv]][dgf]
+[![HTML][htlm-sv]][HTML] HTML
 ======================
 [![dGitFile][dgf-sv]][dgf]
 ======================

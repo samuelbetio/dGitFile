@@ -2,7 +2,7 @@
 =================================
 |Logo             | Name Releases     | Tag |[![dGitFile][dgf-sv]][dgf]| Shimmed |
 |:---------------:|-------------------|:---:|:------------------------:|:-------:|
-|[![k][j]][r-i]   | [QR Code]         | [1] | ✔                       | —       |
+|[![k][j]][r-i]   | [QR Code]         | [1] | [✔][8]                       | —       |
 |[![k][j]][r-i]   | Chrome 14-20      | ✖   | ✖                       | ✔      |
 |[![k][j]][r-i]   | Firefox 4+        | ✔   | ✔                       | —       |
 
@@ -17,3 +17,4 @@
 [Download Github File]: https://github.com/samuelbetio/dGitFile/blob/master/README.md#dgitfile-download-github-file
 [QR Code]: https://github.com/samuelbetio/dGitFile/tree/v7.3.13#qrcodejs
 [1]: https://github.com/samuelbetio/dGitFile/releases/tag/v7.3.13
+[8]: https://github.com/samuelbetio/dGitFile

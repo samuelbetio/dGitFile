@@ -3,7 +3,23 @@
 
 Releases Story of My Life Version
 =================================
-
+| OS  | Browser           | SVG | External Content | Shimmed |
+|:---:|-------------------|:---:|:----------------:|:-------:|
+| *   | Chrome 21+        | ✔   | ✔                | —       |
+| *   | Chrome 14-20      | ✔   | ✖                | ✔       |
+| *   | Firefox 4+        | ✔   | ✔                | —       |
+| *   | Opera 23+         | ✔   | ✔                | —       |
+| *   | Opera Mini 8+     | ✔   | ✔                | —       |
+| And | And. Browser 40+  | ✔   | ✔                | —       |
+| And | And. Browser 4.1+ | ✔   | ✖                | ✔       |
+| iOS | iOS 8.1+          | ✔   | ✔                | —       |
+| iOS | iOS 6-7           | ✔   | ✖                | ✔       |
+| OSX | Saf 7.1+          | ✔   | ✔                | —       |
+| OSX | Saf 6             | ✔   | ✖                | ✔       |
+| Win | Edge 13+          | ✔   | ✔                | —       |
+| Win | Edge 12           | ✔   | ✖                | ✔       |
+| Win | IE 9 - 11         | ✔   | ✖                | ✔       |
+| Win | IE 6 - 8          | ✖   | ✖                | ✔       |
 |NAME Full Version              |[Commit][2] Default  |(zip) Download Default |(tar.gz) Download Default |Full Version Default |
 |-------------------------------|---------------------|-----------------------|--------------------------|---------------------|
 |[Story of My Life][3]          |[dc792a3][4]         |[Download][5]          |[Download][6]             |v1.0                 |

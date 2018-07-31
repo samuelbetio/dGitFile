@@ -29,18 +29,46 @@
 
 [HTML]
 ======
+|![File][sv]| Name Releases     | Tag |[![dGitFile][dgf-sv]][dgf]| Shimmed |
+|:---------:|-------------------|:---:|:------------------------:|:-------:|
+|   ✔      | [QR Code]         | [1] | [✔][8]                   | —       |
+|           | Chrome 14-20      | ✖   | ✖                       | ✔      |
 [CSS]
 ======
+|![File][sv]| Name Releases     | Tag |[![dGitFile][dgf-sv]][dgf]| Shimmed |
+|:---------:|-------------------|:---:|:------------------------:|:-------:|
+|   ✔      | [QR Code]         | [1] | [✔][8]                   | —       |
+|           | Chrome 14-20      | ✖   | ✖                       | ✔      |
 [App or Application]
 ==================
+|![File][sv]| Name Releases     | Tag |[![dGitFile][dgf-sv]][dgf]| Shimmed |
+|:---------:|-------------------|:---:|:------------------------:|:-------:|
+|   ✔      | [QR Code]         | [1] | [✔][8]                   | —       |
+|           | Chrome 14-20      | ✖   | ✖                       | ✔      |
 [Bootstrap]
 ===========
+|![File][sv]| Name Releases     | Tag |[![dGitFile][dgf-sv]][dgf]| Shimmed |
+|:---------:|-------------------|:---:|:------------------------:|:-------:|
+|   ✔      | [QR Code]         | [1] | [✔][8]                   | —       |
+|           | Chrome 14-20      | ✖   | ✖                       | ✔      |
 [jQuery]
 ========
+|![File][sv]| Name Releases     | Tag |[![dGitFile][dgf-sv]][dgf]| Shimmed |
+|:---------:|-------------------|:---:|:------------------------:|:-------:|
+|   ✔      | [QR Code]         | [1] | [✔][8]                   | —       |
+|           | Chrome 14-20      | ✖   | ✖                       | ✔      |
 [One Page]
 ==========
+|![File][sv]| Name Releases     | Tag |[![dGitFile][dgf-sv]][dgf]| Shimmed |
+|:---------:|-------------------|:---:|:------------------------:|:-------:|
+|   ✔      | [QR Code]         | [1] | [✔][8]                   | —       |
+|           | Chrome 14-20      | ✖   | ✖                       | ✔      |
 [Responsive]
 ============
+|![File][sv]| Name Releases     | Tag |[![dGitFile][dgf-sv]][dgf]| Shimmed |
+|:---------:|-------------------|:---:|:------------------------:|:-------:|
+|   ✔      | [QR Code]         | [1] | [✔][8]                   | —       |
+|           | Chrome 14-20      | ✖   | ✖                       | ✔      |
 
 [dgf]:     https://github.com/samuelbetio/dGitFile#dgitfile-download-github-file
 [dgf-sv]:  https://github.com/samuelbetio/dGitFile/blob/v1.0.01-Hawcons/SVG/Filetypes/Blue/Filled/icon-124-document-file-zip.svg

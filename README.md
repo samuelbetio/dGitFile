@@ -29,3 +29,5 @@
 [npm]:     https://www.npmjs.com/package/svg4everybody
 [npm-img]: https://img.shields.io/npm/v/svg4everybody.svg
 [all browsers]: http://caniuse.com/svg
+[SVG for Everybody]: https://github.com/jonathantneal/svg4everybody
+[SVG External Content]: http://css-tricks.com/svg-sprites-use-better-icon-fonts/##Browser+Support

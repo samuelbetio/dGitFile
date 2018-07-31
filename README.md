@@ -1,6 +1,6 @@
 [![dGitFile][dgf-sv]][dgf] [Download Github File]
 =================================
-|[![File][sv]]    | Name Releases     | Tag |[![dGitFile][dgf-sv]][dgf]| Shimmed |
+|![File][sv]      | Name Releases     | Tag |[![dGitFile][dgf-sv]][dgf]| Shimmed |
 |:---------------:|-------------------|:---:|:------------------------:|:-------:|
 |[![k][j]][r-i]   | [QR Code]         | [1] | [✔][8]                       | —       |
 |[![k][j]][r-i]   | Chrome 14-20      | ✖   | ✖                       | ✔      |

@@ -1,4 +1,4 @@
-[dGitFile] [Download Github File]
+[![dGitFile][dgf-sv]][dgf] [Download Github File]
 =================================
 |  df | Browser           | SVG | External Content | Shimmed |
 |:---:|-------------------|:---:|:----------------:|:-------:|
@@ -23,8 +23,8 @@
 [![NPM Version][npm-img]][npm] [![Build Status][ci-img]][ci]
 
 
-[ci]:      https://travis-ci.org/samuelbetio/svg4everybody
-[ci-img]:  https://img.shields.io/travis/samuelbetio/svg4everybody.svg
+[dgf]:     https://github.com/samuelbetio/dGitFile#dgitfile-download-github-file
+[dgf-sv]:  https://github.com/samuelbetio/dGitFile/blob/v1.0.01-Hawcons/SVG/Filetypes/Blue/Filled/icon-124-document-file-zip.svg
 [npm]:     https://www.npmjs.com/package/svg4everybody
 [npm-img]: https://img.shields.io/npm/v/svg4everybody.svg
 [all browsers]: http://caniuse.com/svg

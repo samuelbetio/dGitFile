@@ -17,16 +17,6 @@ Releases Story of My Life Version
 - [Contributors](https://github.com/samuelbetio/storyofmylife/graphs/contributors)
 - [MIT License](https://raw.githubusercontent.com/samuelbetio/storyofmylife/master/LICENSE)
 
-## :thumbsup: Contributors & Credits
-[![NEWBAYAWANCITYPS][NEWBAYAWANCITYPS]][NEWBAYAWANCITYPS-url]
-[![samuelbetio][samuelbetio]][samuelbetio-url]
-[![Pearlton][Pearlton]][Pearlton-url]
-[![kennethvalor][kennethvalor]][kennethvalor-url]
-[![cityofbayawan][cityofbayawan]][cityofbayawan-url]
-[![marysalva][marysalva]][marysalva-url]
-[![timeseariver][timeseariver]][timeseariver-url]
-[![jeanalyn][jeanalyn]][jeanalyn-url]
-[![marlondeposoy][marlondeposoy]][marlondeposoy-url]
 
 
 [0]: https://github.com/samuelbetio/

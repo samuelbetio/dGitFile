@@ -1,4 +1,4 @@
-Story Of My Life
+[Story Of My Life]
 =====================
 
 Releases Story of My Life Version

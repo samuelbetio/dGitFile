@@ -69,11 +69,11 @@
 
 [HTML]:                  #html
 [CSS]:                   #css
-[App or Application]:    #css
-[Bootstrap]:             #css
-[jQuery]:                #css
-[One Page]:              #css
-[Responsive]:            #css
+[App or Application]:    #app-or-application
+[Bootstrap]:             #bootstrap
+[jQuery]:                #jquery
+[One Page]:              #one-page
+[Responsive]:            #responsive
 
 [dGitFile]: https://github.com/topics/dgitfile
 [Download Github File]: https://github.com/samuelbetio/dGitFile/blob/master/README.md#dgitfile-download-github-file

@@ -1,15 +1,9 @@
 [![dGitFile][dgf-sv]][dgf] [Download Github File]
 =================================
-|Logo             | Name Releases     | Tag |[![dGitFile][dgf-sv]][dgf]| Shimmed |
+|[![File][sv]]    | Name Releases     | Tag |[![dGitFile][dgf-sv]][dgf]| Shimmed |
 |:---------------:|-------------------|:---:|:------------------------:|:-------:|
 |[![k][j]][r-i]   | [QR Code]         | [1] | [✔][8]                       | —       |
 |[![k][j]][r-i]   | Chrome 14-20      | ✖   | ✖                       | ✔      |
-|[![k][j]][r-i]   | Firefox 4+        | ✔   | ✔                       | —       |
-
-
-
-
-
 
 
 
@@ -64,7 +58,7 @@
 [r-i]:     https://github.com/samuelbetio/dGitFile/releases
 [j]:       https://github.com/samuelbetio/dGitFile/blob/v1.0.01-Hawcons/SVG/Filetypes/Blue/Filled/icon-29-file-doc.svg
 [htlm-sv]: https://github.com/samuelbetio/dGitFile/blob/v1.0.01-Hawcons/SVG/Filetypes/Blue/Filled/icon-11-file-html.svg
-
+[sv]:      https://github.com/samuelbetio/dGitFile/blob/v1.0.01-Hawcons/SVG/Gestures/Blue/Filled/icon-26-thumb-finger-tap.svg
 
 
 [HTML]:                  #html

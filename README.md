@@ -6,10 +6,10 @@
 |[![k][j]][r-i]   | Chrome 14-20      | ✖   | ✖                       | ✔      |
 |[![k][j]][r-i]   | Firefox 4+        | ✔   | ✔                       | —       |
 
-[![HTML][htlm-sv]][HTML] html
-======================
-[![dGitFile][dgf-sv]][dgf]
-======================
+[HTML]
+======
+[CSS]
+======
 
 [dgf]:     https://github.com/samuelbetio/dGitFile#dgitfile-download-github-file
 [dgf-sv]:  https://github.com/samuelbetio/dGitFile/blob/v1.0.01-Hawcons/SVG/Filetypes/Blue/Filled/icon-124-document-file-zip.svg

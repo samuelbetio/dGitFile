@@ -10,7 +10,7 @@
 
 [dgf]:     https://github.com/samuelbetio/dGitFile#dgitfile-download-github-file
 [dgf-sv]:  https://github.com/samuelbetio/dGitFile/blob/v1.0.01-Hawcons/SVG/Filetypes/Blue/Filled/icon-124-document-file-zip.svg
-[r-i]:     https://github.com/samuelbetio/dGitFile/tree/v1.0.01-Hawcons/SVG/Filetypes/Blue/Filled
+[r-i]:     https://github.com/samuelbetio/dGitFile/releases
 [j]:       https://github.com/samuelbetio/dGitFile/blob/v1.0.01-Hawcons/SVG/Filetypes/Blue/Filled/icon-29-file-doc.svg
 
 [dGitFile]: https://github.com/topics/dgitfile

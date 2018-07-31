@@ -1,33 +1,6 @@
 [![dGitFile][dgf-sv]][dgf] [Download Github File]
 =================================
-|![File][sv]| Name Releases     | Tag |[![dGitFile][dgf-sv]][dgf]|
-|:---------:|-------------------|:---:|:------------------------:|
-|   ✔      | [QR Code]         | [1] | [✔][8][HTML][CSS][App or Application]        |
-|           | Chrome 14-20      | ✖   | ✖                       |
 
-[Bootstrap]
-===========
-|![File][sv]| Name Releases     | Tag |[![dGitFile][dgf-sv]][dgf]|
-|:---------:|-------------------|:---:|:------------------------:|
-|   ✔      | [QR Code]         | [1] | [✔][8]                   |
-|           | Chrome 14-20      | ✖   | ✖                       |
-
-[jQuery]
-========
-|![File][sv]| Name Releases     | Tag |[![dGitFile][dgf-sv]][dgf]|
-|:---------:|-------------------|:---:|:------------------------:|
-|   ✔      | [QR Code]         | [1] | [✔][8]                   |
-|           | Chrome 14-20      | ✖   | ✖                       |
-
-[One Page]
-==========
-|![File][sv]| Name Releases     | Tag |[![dGitFile][dgf-sv]][dgf]|
-|:---------:|-------------------|:---:|:------------------------:|
-|   ✔      | [QR Code]         | [1] | [✔][8]                   |
-|           | Chrome 14-20      | ✖   | ✖                       |
-
-[Responsive]
-============
 |![File][sv]| Name Releases     | Tag |[![dGitFile][dgf-sv]][dgf]|
 |:---------:|-------------------|:---:|:------------------------:|
 |   ✔      | [QR Code]         | [1] | [✔][8]                   |
@@ -41,13 +14,7 @@
 [sv]:      https://github.com/samuelbetio/dGitFile/blob/v1.0.01-Hawcons/SVG/Gestures/Blue/Filled/icon-26-thumb-finger-tap.svg
 
 
-[HTML]:                  #html
-[CSS]:                   #css
-[App or Application]:    #app-or-application
-[Bootstrap]:             #bootstrap
-[jQuery]:                #jquery
-[One Page]:              #one-page
-[Responsive]:            #responsive
+
 
 [dGitFile]: https://github.com/topics/dgitfile
 [Download Github File]: https://github.com/samuelbetio/dGitFile/blob/master/README.md#dgitfile-download-github-file

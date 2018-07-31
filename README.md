@@ -9,60 +9,48 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 [HTML]
 ======
 |![File][sv]| Name Releases     | Tag |[![dGitFile][dgf-sv]][dgf]| Shimmed |
 |:---------:|-------------------|:---:|:------------------------:|:-------:|
 |   ✔      | [QR Code]         | [1] | [✔][8]                   | —       |
 |           | Chrome 14-20      | ✖   | ✖                       | ✔      |
+
 [CSS]
 ======
 |![File][sv]| Name Releases     | Tag |[![dGitFile][dgf-sv]][dgf]| Shimmed |
 |:---------:|-------------------|:---:|:------------------------:|:-------:|
 |   ✔      | [QR Code]         | [1] | [✔][8]                   | —       |
 |           | Chrome 14-20      | ✖   | ✖                       | ✔      |
+
 [App or Application]
 ==================
 |![File][sv]| Name Releases     | Tag |[![dGitFile][dgf-sv]][dgf]| Shimmed |
 |:---------:|-------------------|:---:|:------------------------:|:-------:|
 |   ✔      | [QR Code]         | [1] | [✔][8]                   | —       |
 |           | Chrome 14-20      | ✖   | ✖                       | ✔      |
+
 [Bootstrap]
 ===========
 |![File][sv]| Name Releases     | Tag |[![dGitFile][dgf-sv]][dgf]| Shimmed |
 |:---------:|-------------------|:---:|:------------------------:|:-------:|
 |   ✔      | [QR Code]         | [1] | [✔][8]                   | —       |
 |           | Chrome 14-20      | ✖   | ✖                       | ✔      |
+
 [jQuery]
 ========
 |![File][sv]| Name Releases     | Tag |[![dGitFile][dgf-sv]][dgf]| Shimmed |
 |:---------:|-------------------|:---:|:------------------------:|:-------:|
 |   ✔      | [QR Code]         | [1] | [✔][8]                   | —       |
 |           | Chrome 14-20      | ✖   | ✖                       | ✔      |
+
 [One Page]
 ==========
 |![File][sv]| Name Releases     | Tag |[![dGitFile][dgf-sv]][dgf]| Shimmed |
 |:---------:|-------------------|:---:|:------------------------:|:-------:|
 |   ✔      | [QR Code]         | [1] | [✔][8]                   | —       |
 |           | Chrome 14-20      | ✖   | ✖                       | ✔      |
+
 [Responsive]
 ============
 |![File][sv]| Name Releases     | Tag |[![dGitFile][dgf-sv]][dgf]| Shimmed |

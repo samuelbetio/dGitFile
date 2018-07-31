@@ -1,8 +1,8 @@
 [![dGitFile][dgf-sv]][dgf] [Download Github File]
 =================================
-|Logo             | Releases          | SVG | External Content | Shimmed |
+|Logo             | Name Releases     | SVG | External Content | Shimmed |
 |:---------------:|-------------------|:---:|:----------------:|:-------:|
-|[![k][j]][r-i]   | [QR Code]         | ✔   | ✔               | —       |
+|[![k][j]][r-i]   | [QR Code]         | 1   | ✔               | —       |
 |[![k][j]][r-i]   | Chrome 14-20      | ✖   | ✖               | ✔      |
 |[![k][j]][r-i]   | Firefox 4+        | ✔   | ✔               | —       |
 
@@ -16,3 +16,4 @@
 [dGitFile]: https://github.com/topics/dgitfile
 [Download Github File]: https://github.com/samuelbetio/dGitFile/blob/master/README.md#dgitfile-download-github-file
 [QR Code]: https://github.com/samuelbetio/dGitFile/tree/v7.3.13#qrcodejs
+[1]: https://github.com/samuelbetio/dGitFile/releases/tag/v7.3.13

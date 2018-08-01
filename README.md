@@ -1,4 +1,0 @@
-pond life
-========
-
-Canvas experiment.

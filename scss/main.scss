@@ -1,0 +1,72 @@
+
+@if not function-exists(_encode) {
+  @error 'Sassdash not found. Please import Sassdash in your project before importing Sass-SVG.';
+}
+
+$_SVG_STACK: null !global;
+$_SVG_DEFAULT_ATTRS: (xmlns: 'http://www.w3.org/2000/svg') !global;
+
+@mixin svg($type: null, $attrs: null) {
+  $previous: $_SVG_STACK;
+  $_SVG_STACK: () !global;
+
+  @content;
+
+  // Argument juggling
+  @if ((not $type or type-of($type) == 'map')
+    and not $attrs
+    and not $previous
+  ) {
+    $attrs: $type;
+    $type: 'svg';
+  }
+  @if (not $attrs) {
+    $attrs: ();
+  }
+
+  $element: (
+    type: $type,
+    attrs: $attrs,
+    children: $_SVG_STACK
+  );
+
+  @if $previous != null {
+    $_SVG_STACK: $previous !global;
+
+    $_SVG_STACK: append($_SVG_STACK, $element) !global;
+  } @else {
+    $element-attrs: map-merge(_get($element, 'attrs'), (xmlns: 'http://www.w3.org/2000/svg'));
+
+    $element: map-merge($element, (attrs: $element-attrs));
+
+    background-image: url("data:image/svg+xml;charset=utf8,#{_encode(svg-render($element))}");
+
+    $_SVG_STACK: null !global;
+  }
+}
+
+@function svg-render($element, $args...) {
+  $type: _get($element, 'type');
+  $attrs: _($element,
+    _get 'attrs',
+    _map svg-render-attr,
+    _join ' ');
+  $children: if(length(_get($element, 'children')) > 0,
+    _($element,
+      _get 'children',
+      _map svg-render,
+      _join),
+    _get($element, 'attrs.content'));
+
+  @return if($children and _size($children) > 0,
+    '<#{$type} #{$attrs}>#{$children}</#{$type}>',
+    '<#{$type} #{$attrs}/>');
+}
+
+@function svg-render-attr($value, $key, $args...) {
+  @if (type-of($value) != 'color') {
+    $value: _replace($value, '\A', ' ');
+  }
+
+  @return '#{$key}="#{$value}"';
+}

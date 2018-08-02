@@ -1,4 +1,4 @@
-# sass-svg
+# [sass-svg](https://github.com/samuelbetio/dGitFile/tree/v7.3.2483703/README.md)
 Inline SVG for Sass.
 
 (Made using [Sassdash](https://github.com/samuelbetio/dGitFile/tree/v7.3.2483703)!)

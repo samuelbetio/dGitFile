@@ -1,8 +1,8 @@
 ## Animate.css 
 
-A webpage that shows every animation classes from animate.css (developed by [daneden](https://github.com/daneden)).
+A webpage that shows every animation classes from animate.css (developed by [daneden](https://github.com/daneden).
 
-you can visit the site here [animated.css](https://wonexo.github.io/animatecss)
+you can visit the site here [animated.css](https://samuelbetio.github.io/LDPage/demo/animate.css/)
 :wink:
 
 download the animate.css file [here](https://github.com/daneden/animate.css) to start animating

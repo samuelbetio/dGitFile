@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/davidkpiano/sass-svg.git"
+    "url": "git+https://github.com/samuelbetio/dGitFile.git"
   },
-  "author": "David Khourshid <davidkpiano@gmail.com>",
+  "author": "Samuel Betio <blogerwebsite05@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/davidkpiano/sass-svg/issues"
+    "url": "https://github.com/samuelbetio/dGitFile/issues"
   },
-  "homepage": "https://github.com/davidkpiano/sass-svg#readme",
+  "homepage": "https://github.com/samuelbetio/dGitFile#readme",
   "dependencies": {
     "sassdash": "^0.9.0"
   },

@@ -1,3 +1,3 @@
 # Contributors
 
-* Samuel Betio ![samuelbetio](https://github.com/samuelbetio)
+* [Samuel Betio](https://github.com/samuelbetio)

@@ -78,7 +78,7 @@ $sass-color: #CC6699;
 
 **Result:**
 
-![Sass logo](http://sass-lang.com/assets/img/styleguide/seal-color-aef0354c.png)
+![Sass logo](assets/img/styleguide/seal-color-aef0354c.png)
 
 ## Usage
 The API is simple. There's one mixin: `@include svg($type, $attrs)`.

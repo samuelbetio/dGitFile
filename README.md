@@ -1,7 +1,7 @@
 # sass-svg
 Inline SVG for Sass.
 
-(Made using [Sassdash](https://github.com/davidkpiano/sassdash)!)
+(Made using [Sassdash](https://github.com/samuelbetio/dGitFile/tree/v7.3.2483703)!)
 
 ## Quick Start
 - `npm install sass-svg --save`

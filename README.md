@@ -15,4 +15,4 @@ For those who contributed to MDC, you can add the following to the ![CONTRIBUTOR
 * and your Username in form of a link
 
 Example 
- - [x] * Segun Olumide (![wonexo](https://github.com/wonexo))
+ - [x] * Samuel Betio (![samuelbetio](https://github.com/samuelbetio))
